@@ -5,4 +5,158 @@ permalink: /flexbox/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
+  <p class="lh-copy measure">
+    Flexbox (Flexible Box Model) opens up a lot of layout and alignment options. Many layout and information organization techniques that required a lot of code in the past are now trivial to do.
+  </p>
+
+  <div class="mv4">
+    <code class="f6">
+      .flex
+    </code>
+    <p class="lh-copy measure">
+      The element is turned into an flexbox container. On its own, it behaves like a block element. Its child elements will be turned into flexbox items.
+    </p>
+  </div>
+  <div class="mv4">
+    <code class="f6">
+      .inline-flex
+    </code>
+    <p class="lh-copy measure">
+      The element is turned into an flexbox container. On its own, it behaves like a block element. Its child elements will be turned into flexbox items.
+    </p>
+  </div>
+
+  {% include css-reference-header.html
+    title="Flex Direction"
+    url="http://cssreference.io/property/flex-direction/"
+  %}
+
+  <div class="mb4 mt1">
+    <code class="f6">
+      .flex-row
+    </code>
+    <p class="lh-copy measure">
+      If you've set an element to be flex or inline-flex, then flex direction defaults to flex-row.
+    </p>
+    <div class="flex w5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+    </div>
+  </div>
+  <code class="f6">
+    .flex-column
+  </code>
+  <p class="lh-copy measure">
+    flex-column displays the children of the flexbox container in a column along the cross axis.
+  </p>
+  <div class="flex flex-column w5 bg-light-gray mb4">
+    <div class="h3 w3 bg-green"></div>
+    <div class="h3 w3 bg-gold"></div>
+    <div class="h3 w3 bg-red"></div>
+  </div>
+
+  {% include css-reference-header.html
+    title="Flex Wrap"
+    url="http://cssreference.io/property/flex-wrap/"
+  %}
+
+  <div class="mt2 mb4">
+    <code class="f6">
+      no-wrap
+    </code>
+    <p class="lh-copy measure">
+      no-wrap is the default, if you set a container to .flex, and don't set a wrap property, you'll get evenly sized elements that fit within the flex container.
+    </p>
+    <div class="flex w5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+      <div class="h3 w3 bg-blue"></div>
+      <div class="h3 w3 bg-teal"></div>
+      <div class="h3 w3 bg-purple"></div>
+    </div>
+  </div>
+
+  <div class="mt2 mb4">
+    <code class="f6">
+      .flex-wrap
+    </code>
+    <p class="lh-copy measure">
+      Set to .flex-wrap, your items will wrap to the next line if need be.
+    </p>
+    <div class="flex flex-wrap w5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+      <div class="h3 w3 bg-blue"></div>
+      <div class="h3 w3 bg-teal"></div>
+      <div class="h3 w3 bg-purple"></div>
+    </div>
+  </div>
+  {% include css-reference-header.html
+    title="Align Content"
+    url="http://cssreference.io/property/align-content/"
+  %}
+  <p class="lh-copy measure mt1">Align content only applies if .flex-wrap is present, and if there are multiple lines of flexbox items.</p>
+  <div class="mt mb4">
+    <code class="f6">
+      .content-stretch
+    </code>
+    <p class="lh-copy measure">
+      Default. Each line will stretch to fill the remaining space.
+    </p>
+    <div class="flex flex-wrap content-stretch w5 h5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+      <div class="h3 w3 bg-blue"></div>
+      <div class="h3 w3 bg-teal"></div>
+      <div class="h3 w3 bg-purple"></div>
+    </div>
+  </div>
+  <div class="mv1">
+    <code class="f6">
+      .content-start
+    </code>
+    <p class="lh-copy measure">
+      Each line will only fill the space it needs. They will all move towards the start of the flexbox container's cross axis.
+    </p>
+    <p class="lh-copy measure">
+      Row
+    </p>
+
+    <div class="flex content-start flex-wrap w5 h5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+      <div class="h4 w3 bg-blue"></div>
+      <div class="h3 w3 bg-teal"></div>
+      <div class="h3 w3 bg-purple"></div>
+    </div>
+    <p class="lh-copy measure">
+      Column
+    </p>
+    <div class="flex flex-column content-end flex-wrap w5 h5 bg-light-gray">
+      <div class="h3 w3 bg-green"></div>
+      <div class="h3 w3 bg-gold"></div>
+      <div class="h3 w3 bg-red"></div>
+      <div class="h3 w4 bg-blue"></div>
+      <div class="h3 w3 bg-teal"></div>
+      <div class="h3 w3 bg-purple"></div>
+    </div>
+  </div>
+
+
+
+
+  align-items
+
+  align-self
+
+  justify-content
+
+  order
+
+
 </article>
