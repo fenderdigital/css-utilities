@@ -2,7 +2,7 @@
 
 Functional CSS for humans.
 
-## [Documentation](https://fenderdigital.github.io/tachyons/home/)
+## [Documentation](https://fenderdigital.github.io/css-utilities/intro/)
 
 ### Try it out :runner::dash:
 
