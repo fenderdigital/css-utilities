@@ -1,15 +1,15 @@
 {
-  "name": "tachyons",
+  "name": "fender-css-utilities",
   "version": "4.6.2",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
+  "style": "css/utilities.min.css",
+  "main": "css/utilities.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
+  "repository": "fenderdigital/css-utilities",
   "keywords": [
     "css",
     "oocss",
@@ -40,10 +40,10 @@
   ],
   "scripts": {
     "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
+    "mutations": "immutable-css src/utilities.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:css": "tachyons src/utilities.css > css/utilities.css",
+    "build:minify": "tachyons src/utilities.css -m > css/utilities.min.css",
     "build:watch": "watch 'npm run build' ./src/"
   }
 }

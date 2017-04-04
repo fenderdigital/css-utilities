@@ -1,7 +1,6 @@
 /*
 
     BORDERS
-    Docs: http://tachyons.io/docs/themes/borders/
 
     Base:
       b = border
@@ -55,4 +54,3 @@
   .bl-l { border-left-style: solid; border-left-width: 1px; }
   .bn-l { border-style: none; border-width: 0; }
 }
-

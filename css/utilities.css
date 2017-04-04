@@ -1,18 +1,11 @@
-/*! TACHYONS v4.6.1 | http://tachyons.io */
+/* v4.6.1  */
 /*
- *
- *      ________            ______
- *      ___  __/_____ _________  /______  ______________________
- *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
- *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
- *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
- *                                 /____/
  *
  *    TABLE OF CONTENTS
  *
  *    1. External Library Includes
  *       - Normalize.css | http://normalize.css.github.io
- *    2. Tachyons Modules
+ *    2. Modules
  *    3. Variables
  *       - Media Queries
  *       - Colors
@@ -242,7 +235,7 @@ template { display: none; }
  * Add the correct display in IE 10-.
  */
 [hidden] { display: none; }
-h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2, h3, h4, h5, h6, p { font-weight: normal; }
 /* Modules */
 /*
  
@@ -286,7 +279,6 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 /*
 
    IMAGES
-   Docs: http://tachyons.io/docs/elements/images/
 
 */
 /* Responsive images! */
@@ -294,7 +286,6 @@ img { max-width: 100%; }
 /*
 
    BACKGROUND SIZE
-   Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
      -ns = not-small
@@ -349,7 +340,6 @@ img { max-width: 100%; }
 /*
 
     BORDERS
-    Docs: http://tachyons.io/docs/themes/borders/
 
     Base:
       b = border
@@ -377,7 +367,6 @@ img { max-width: 100%; }
 /*
 
    BORDER COLORS
-   Docs: http://tachyons.io/docs/themes/borders/
 
    Border colors can be used to extend the base
    border classes ba,bt,bb,br,bl found in the _borders.css file.
@@ -459,7 +448,6 @@ img { max-width: 100%; }
 /*
 
    BORDER RADIUS
-   Docs: http://tachyons.io/docs/themes/border-radius/
 
    Base:
      br   = border-radius
@@ -495,7 +483,6 @@ img { max-width: 100%; }
 /*
 
    BORDER STYLES
-   Docs: http://tachyons.io/docs/themes/borders/
 
    Depends on base border module in _borders.css
 
@@ -521,7 +508,6 @@ img { max-width: 100%; }
 /*
 
    BORDER WIDTHS
-   Docs: http://tachyons.io/docs/themes/borders/
 
    Base:
      bw = border-width
@@ -554,7 +540,6 @@ img { max-width: 100%; }
 /*
 
   BOX-SHADOW
-  Docs: http://tachyons.io/docs/themes/box-shadow/
 
   Media Query Extensions:
    -ns = not-small
@@ -576,7 +561,6 @@ img { max-width: 100%; }
 /*
 
    COORDINATES
-   Docs: http://tachyons.io/docs/layout/position/
 
    Use in combination with the position module.
 
@@ -623,7 +607,6 @@ img { max-width: 100%; }
 /*
 
    CLEARFIX
-   http://tachyons.io/docs/layout/clearfix/
 
 */
 /* Nicolas Gallaghers Clearfix solution
@@ -638,7 +621,6 @@ img { max-width: 100%; }
 /*
 
    DISPLAY
-   Docs: http://tachyons.io/docs/layout/display
 
    Base:
     d = display
@@ -729,7 +711,6 @@ img { max-width: 100%; }
 /*
 
    FLOATS
-   http://tachyons.io/docs/layout/floats/
 
    1. Floated elements are automatically rendered as block level elements.
       Setting floats to display inline will fix the double margin bug in
@@ -757,7 +738,6 @@ img { max-width: 100%; }
 /*
 
    FONT FAMILY GROUPS
-   Docs: http://tachyons.io/docs/typography/font-family/
 
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
@@ -782,7 +762,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FONT STYLE
-   Docs: http://tachyons.io/docs/typography/font-style/
 
    Media Query Extensions:
      -ns = not-small
@@ -796,7 +775,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FONT WEIGHT
-   Docs: http://tachyons.io/docs/typography/font-weight/
 
    Base
      fw = font-weight
@@ -839,7 +817,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    HEIGHTS
-   Docs: http://tachyons.io/docs/layout/heights/
 
    Base:
      h = height
@@ -892,7 +869,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LETTER SPACING
-   Docs: http://tachyons.io/docs/typography/tracking/
 
    Media Query Extensions:
      -ns = not-small
@@ -906,7 +882,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LINE HEIGHT / LEADING
-   Docs: http://tachyons.io/docs/typography/line-height
 
    Media Query Extensions:
      -ns = not-small
@@ -920,7 +895,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LINKS
-   Docs: http://tachyons.io/docs/elements/links/
 
 */
 .link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
@@ -931,14 +905,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LISTS
-   http://tachyons.io/docs/elements/lists/
 
 */
 .list { list-style-type: none; }
 /*
 
    MAX WIDTHS
-   Docs: http://tachyons.io/docs/layout/max-widths/
 
    Base:
      mw = max-width
@@ -982,7 +954,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    WIDTHS
-   Docs: http://tachyons.io/docs/layout/widths/
 
    Base:
      w = width
@@ -1068,7 +1039,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    POSITIONING
-   Docs: http://tachyons.io/docs/layout/position/
 
    Media Query Extensions:
      -ns = not-small
@@ -1092,7 +1062,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
     OPACITY
-    Docs: http://tachyons.io/docs/themes/opacity/
 
 */
 .o-100 { opacity: 1; }
@@ -1123,7 +1092,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    SKINS
-   Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
    If you haven't declared a border color, but set border on an element, it will
@@ -1483,7 +1451,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Variables */
 /*
    SPACING
-   Docs: http://tachyons.io/docs/layout/spacing/
 
    An eight step powers of two scale ranging from 0 to 16rem.
 
@@ -1692,7 +1659,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   TABLES
-  Docs: http://tachyons.io/docs/elements/tables/
 
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
@@ -1705,8 +1671,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TEXT DECORATION
-   Docs: http://tachyons.io/docs/typography/text-decoration/
-
 
    Media Query Extensions:
      -ns = not-small
@@ -1720,7 +1684,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   TEXT ALIGN
-  Docs: http://tachyons.io/docs/typography/text-align/
 
   Base
     t = text-align
@@ -1742,7 +1705,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TEXT TRANSFORM
-   Docs: http://tachyons.io/docs/typography/text-transform/
 
    Base:
      tt = text-transform
@@ -1766,7 +1728,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPE SCALE
-   Docs: http://tachyons.io/docs/typography/scale/
 
    Base:
     f = font-size
@@ -1806,7 +1767,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPOGRAPHY
-   http://tachyons.io/docs/typography/measure/
 
    Media Query Extensions:
      -ns = not-small
@@ -1877,7 +1837,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   HOVER EFFECTS
-  Docs: http://tachyons.io/docs/themes/hovers/
 
     - Dim
     - Glow
@@ -1930,16 +1889,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
-/* 
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 .shadow-hover { cursor: pointer; position: relative; -webkit-transition: all .5s cubic-bezier( .165, .84, .44, 1 ); transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -webkit-transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 .bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
 /*
@@ -1972,8 +1931,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
   Tips on extending:
   There might be a time worth using negative z-index values.
-  Or if you are using tachyons with another project, you might need to
-  adjust these values to suit your needs.
 
 */
 .z-0 { z-index: 0; }
@@ -1991,7 +1948,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
     NESTED
-    Tachyons module for styling nested elements
+    Module for styling nested elements
     that are generated by a cms.
 
 */
@@ -2024,18 +1981,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  from { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
  to { -webkit-transform: rotate( 360deg ); transform: rotate( 360deg ); }
 }
-/*
-
-  STYLES
-
-  Add custom styles here.
-
-*/
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
 
-   Tachyons
    COLOR VARIABLES
 
    Grayscale
@@ -2080,7 +2029,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   DEBUG CHILDREN
-  Docs: http://tachyons.io/docs/debug/
 
   Just add the debug class to any element to see outlines on its
   children.
@@ -2092,7 +2040,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    DEBUG GRID
-   http://tachyons.io/docs/debug-grid/
 
    Can be useful for debugging layout issues
    or helping to make sure things line up perfectly.
@@ -2103,8 +2050,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODYyRjhERDU2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODYyRjhERDQ2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QTY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3QjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvCS01IAAABMSURBVHjaYmR4/5+BFPBfAMFm/MBgx8RAGWCn1AAmSg34Q6kBDKMGMDCwICeMIemF/5QawEipAWwUhwEjMDvbAWlWkvVBwu8vQIABAEwBCph8U6c0AAAAAElFTkSuQmCC ) repeat top left; }
 .debug-grid-8-solid { background: white url( data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAAAAD/4QMxaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzExMSA3OS4xNTgzMjUsIDIwMTUvMDkvMTAtMDE6MTA6MjAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkIxMjI0OTczNjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIxMjI0OTc0NjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjEyMjQ5NzE2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjEyMjQ5NzI2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAbGhopHSlBJiZBQi8vL0JHPz4+P0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHAR0pKTQmND8oKD9HPzU/R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0f/wAARCAAIAAgDASIAAhEBAxEB/8QAWQABAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAIEEAEBAAMBAAAAAAAAAAAAAAABADECA0ERAAEDBQAAAAAAAAAAAAAAAAARITFBUWESIv/aAAwDAQACEQMRAD8AoOnTV1QTD7JJshP3vSM3P//Z ) repeat top left; }
 .debug-grid-16-solid { background: white url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzY3MkJEN0U2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzY3MkJEN0Y2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3RDY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pve6J3kAAAAzSURBVHjaYvz//z8D0UDsMwMjSRoYP5Gq4SPNbRjVMEQ1fCRDg+in/6+J1AJUxsgAEGAA31BAJMS0GYEAAAAASUVORK5CYII= ) repeat top left; }
-/* Uncomment out the line below to help debug layout issues */
-/* @import './_debug'; */
 @media screen and (min-width: 30em) {
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }

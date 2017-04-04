@@ -1,7 +1,6 @@
 /*
 
    LINE HEIGHT / LEADING
-   Docs: http://tachyons.io/docs/typography/line-height
 
    Media Query Extensions:
      -ns = not-small
@@ -31,4 +30,3 @@
   .lh-title-l { line-height: 1.25; }
   .lh-copy-l  { line-height: 1.5; }
 }
-

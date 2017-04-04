@@ -28,8 +28,6 @@
 
   Tips on extending:
   There might be a time worth using negative z-index values.
-  Or if you are using tachyons with another project, you might need to
-  adjust these values to suit your needs.
 
 */
 
@@ -50,4 +48,3 @@
 .z-inherit { z-index: inherit; }
 .z-initial { z-index: initial; }
 .z-unset { z-index: unset; }
-
