@@ -5,4 +5,15 @@ permalink: /forms/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
+
+  <p class="measure lh-copy">
+    Basic form control resets to remove default styles for mobile devices.
+  </p>
+
+  <form>
+    <label for="inputReset">
+        <code class="f6 db">.input-reset</code>
+      </label>
+    <input id="inputReset" type="text" class="input-reset">
+  </form>
 </article>
