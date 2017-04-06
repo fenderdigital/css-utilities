@@ -1,8 +1,8 @@
-<div class="inline-flex items-center">
-  <h3 class="measure f5 ttu tracked lh-copy futura-book">
-    {{ include.title }}
-  </h3>
-  <div class="ml3">
-    {% include button.html url=include.url buttonText='CSS Reference' %}
-  </div>
+<div class="flex items-center">
+  {% if include.title %}
+    <h3 class="measure f6 ttu tracked lh-copy futura-book mr3">
+      {{ include.title }}
+    </h3>
+  {% endif %}
+  {% include button.html url=include.url buttonText='CSS Reference' %}
 </div>
