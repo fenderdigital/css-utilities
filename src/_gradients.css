@@ -4,9 +4,9 @@
 
  */
 
-.bg-gradient-white-10-to-light-gray {
-  background: var(--white);
-  background: linear-gradient(to bottom, var(--white-10), var(--light-gray));
+.bg-gradient-light-gray-to-moon-gray {
+  background: var(--light-gray);
+  background: linear-gradient(to bottom, var(--light-gray), var(--moon-gray));
 }
 
 .bg-gradient-near-black-to-dark-gray {
