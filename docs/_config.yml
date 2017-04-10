@@ -17,6 +17,7 @@ title: Fender Design System
 url: "/css-utilities/" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
+hightlighter: rouge
 gems:
   - jekyll-redirect-from
 exclude:

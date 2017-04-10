@@ -6,7 +6,7 @@ permalink: /grid/
 <article class="mv4">
   {% include title.html text=page.title %}
   <p class="measure lh-copy">
-    You can combine display, float, padding, and widths to contstruct a wide variety of fluid grids.
+    You can combine <a href="{{site.baseurl}}/display" class="dim link red">display</a>, float, <a href="{{site.baseurl}}/spacing" class="dim link red">padding</a>, and <a href="{{site.baseurl}}/widths" class="dim link red">widths</a> to contstruct a wide variety of fluid grids.
   </p>
   {% include css-reference-header.html
     title="Floats"
@@ -174,17 +174,16 @@ permalink: /grid/
     </div>
   </section>
   <h4 class="f6 mb2">Two Columns - Collapsing</h4>
-
-  <code class="f6 pre">
-&lt;div class="cf"&gt;
-  &lt;div class="fl w-100 w-50-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-50-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </code>
+{% highlight HTML %}
+  <div class="cf">
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+{% endhighlight %}
   <div class="cf">
     <div class="fl w-100 w-50-ns pa2">
       <div class="outline bg-white tc pv4"></div>
@@ -194,19 +193,19 @@ permalink: /grid/
     </div>
   </div>
   <h4 class="f6 mb2">Three Columns - Collapse to Single</h4>
-  <code class="f6 pre">
-&lt;div class="cf"&gt;
-  &lt;div class="fl w-100 w-third-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-third-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-third-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </code>
+{% highlight HTML %}
+  <div class="cf">
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+{% endhighlight %}
   <div class="cf">
     <div class="fl w-100 w-third-ns pa2">
       <div class="outline bg-white pv4"></div>
@@ -219,19 +218,19 @@ permalink: /grid/
     </div>
   </div>
   <h4 class="f6 mb2">Three Columns - Collapse to Mixed</h4>
-  <code class="f6 pre">
-  &lt;div class="cf"&gt;
-    &lt;div class="fl w-100 w-third-ns pa2"&gt;
-      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="fl w-50 w-third-ns pa2"&gt;
-      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="fl w-50 w-third-ns pa2"&gt;
-      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  </code>
+{% highlight HTML %}
+  <div class="cf">
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+{% endhighlight %}
   <div class="cf">
     <div class="fl w-100 w-third-ns pa2">
       <div class="outline bg-white tc pv4"></div>
@@ -244,22 +243,22 @@ permalink: /grid/
     </div>
   </div>
   <h4 class="f6 mb2">Four Columns - Collapse to single</h4>
-  <code class="f6 pre">
-&lt;div class="cf"&gt;
-  &lt;div class="fl w-100 w-25-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-25-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-25-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="fl w-100 w-25-ns pa2"&gt;
-    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </code>
+{% highlight HTML %}
+  <div class="cf">
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+{% endhighlight %}
   <div class="cf">
     <div class="fl w-100 w-25-ns pa2">
       <div class="outline bg-white pv4"></div>
@@ -275,22 +274,22 @@ permalink: /grid/
     </div>
   </div>
   <h4 class="f6 mb2">Four Columns - Collapse to Mixed</h4>
-  <code class="f6 pre">
-&lt;div class="cf"&gt;
-&lt;div class="fl w-100 w-25-ns pa2"&gt;
-  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="fl w-third w-25-ns pa2"&gt;
-  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="fl w-third w-25-ns pa2"&gt;
-  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="fl w-third w-25-ns pa2"&gt;
-  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-  </code>
+{% highlight HTML %}
+  <div class="cf">
+  <div class="fl w-100 w-25-ns pa2">
+    <div class="outline bg-white tc pv4"></div>
+  </div>
+  <div class="fl w-third w-25-ns pa2">
+    <div class="outline bg-white tc pv4"></div>
+  </div>
+  <div class="fl w-third w-25-ns pa2">
+    <div class="outline bg-white tc pv4"></div>
+  </div>
+  <div class="fl w-third w-25-ns pa2">
+    <div class="outline bg-white tc pv4"></div>
+  </div>
+</div>
+{% endhighlight %}
   <div class="cf">
     <div class="fl w-100 w-25-ns pa2">
       <div class="outline bg-white tc pv4"></div>
@@ -306,3 +305,94 @@ permalink: /grid/
     </div>
   </div>
 </article>
+{% highlight CSS %}
+/*
+
+   FLOATS
+
+   1. Floated elements are automatically rendered as block level elements.
+      Setting floats to display inline will fix the double margin bug in
+      ie6. You know... just in case.
+
+   2. Don't forget to clearfix your floats with .cf
+
+   Base:
+     f = float
+
+   Modifiers:
+     l = left
+     r = right
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+
+.fl { float: left;  _display: inline; }
+.fr { float: right; _display: inline; }
+.fn { float: none; }
+
+@media (--breakpoint-not-small) {
+  .fl-ns { float: left; _display: inline; }
+  .fr-ns { float: right; _display: inline; }
+  .fn-ns { float: none; }
+}
+
+@media (--breakpoint-medium) {
+  .fl-m { float: left; _display: inline; }
+  .fr-m { float: right; _display: inline; }
+  .fn-m { float: none; }
+}
+
+@media (--breakpoint-large) {
+  .fl-l { float: left; _display: inline; }
+  .fr-l { float: right; _display: inline; }
+  .fn-l { float: none; }
+}
+
+/*
+
+   CLEARFIX
+
+*/
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+
+@media (--breakpoint-not-small) {
+  .cl-ns { clear: left; }
+  .cr-ns { clear: right; }
+  .cb-ns { clear: both; }
+  .cn-ns { clear: none; }
+}
+
+@media (--breakpoint-medium) {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+  .cn-m { clear: none; }
+}
+
+@media (--breakpoint-large) {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+  .cn-l { clear: none; }
+}
+
+{% endhighlight %}

@@ -21,20 +21,18 @@ permalink: /intro/
     Responsive Designs are achieved with each CSS class defaulting to mobile screens, with responsive class suffix flags to change the styles across the 3 Media Queries. See more in <a href="/media-queries/" class="blue dim link">Media Queries</a>.
 
   <h3>Example:</h3>
-<pre class="pa2 bg-near-white overflow-auto">
-  <code class="f7 code">
-&lt;div class="toggle-switch"&gt;
-  &lt;div class="b--gray ba br-pill flex h2 overflow-hidden w4"&gt;
-    &lt;button class="bn bg-light-gray shadow-2 w-50 z-1"&gt;
-      &lt;span class="f7 futura-heavy gray tracked-light ttu"&gt;Off&lt;/span&gt;
-    &lt;/button&gt;
-    &lt;button class="bn bg-green w-50"&gt;
-      &lt;span class="f7 futura-heavy tracked-light ttu white"&gt;On&lt;/span&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </code>
-</pre>
+{% highlight html %}
+<div class="toggle-switch">
+  <div class="b--gray ba br-pill flex h2 overflow-hidden w4">
+    <button class="bn bg-light-gray shadow-2 w-50 z-1">
+      <span class="f7 futura-heavy gray tracked-light ttu">Off</span>
+    </button>
+    <button class="bn bg-green w-50">
+      <span class="f7 futura-heavy tracked-light ttu white">On</span>
+    </button>
+  </div>
+</div>
+{% endhighlight %}
 
   <h3>Result:</h3>
 
@@ -62,7 +60,7 @@ permalink: /intro/
   Then, you can think about what states look like, by figuring out what the differences in properties are.
 </p>
 
-<div class="toggle-switch mt4">
+<div class="toggle-switch mv4">
   <div class="b--gray ba br-pill flex h2 overflow-hidden w4">
     <button class="bn bg-red w-50">
       <span class="f7 futura-heavy tracked-light ttu white">Off</span>
@@ -73,21 +71,15 @@ permalink: /intro/
   </div>
 </div>
 
-<pre class="pa2 bg-near-white overflow-auto">
-  <code class="f8">
-&lt;div class="toggle-switch"&gt;
-  &lt;div class="b--gray ba br-pill flex h2 overflow-hidden w4"&gt;
-    &lt;button class="bn bg-red w-50"&gt;
-      &lt;span class="f7 futura-heavy tracked-light ttu white"&gt;Off&lt;/span&gt;
-    &lt;/button&gt;
-    &lt;button class="bn bg-light-gray shadow-2 w-50 z-1"&gt;
-      &lt;span class="f7 futura-heavy tracked-light ttu gray"&gt;On&lt;/span&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  </code>
-</pre>
-
-
+{% highlight html %}
+<div class="b--gray ba br-pill flex h2 overflow-hidden w4">
+  <button class="bn bg-red w-50">
+    <span class="f7 futura-heavy tracked-light ttu white">Off</span>
+  </button>
+  <button class="bn bg-light-gray shadow-2 w-50 z-1">
+    <span class="f7 futura-heavy tracked-light ttu gray">On</span>
+  </button>
+</div>
+{% endhighlight %}
 
 </article>
