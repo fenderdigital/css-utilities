@@ -91,6 +91,7 @@ permalink: /type-styles/
 </div>
 
 <div class="mb4">
+  <code class="f6">.anti-aliased</code>
   <p class="lh-copy measure">Anti-aliasing in general makes light text on a dark background look better than the default subpixel. Dark text on light backgrounds should not use it.</p>
   <div class="w-25 h5 bg-black flex flex-column items-center justify-center">
     <div class="tc">
@@ -99,58 +100,58 @@ permalink: /type-styles/
     </div>
   </div>
 </div>
+</article>
 
-<pre class="f7">
-  <code>
+{% highlight CSS %}
 /*
 
-   FONT STYLE
+ FONT STYLE
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+ Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
 
 */
 .anti-aliased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 .i         { font-style: italic; }
 .fs-normal { font-style: normal; }
 
 @media (--breakpoint-not-small) {
-  .i-ns       { font-style: italic; }
-  .fs-normal-ns     { font-style: normal; }
+.i-ns       { font-style: italic; }
+.fs-normal-ns     { font-style: normal; }
 }
 
 @media (--breakpoint-medium) {
-  .i-m       { font-style: italic; }
-  .fs-normal-m     { font-style: normal; }
+.i-m       { font-style: italic; }
+.fs-normal-m     { font-style: normal; }
 }
 
 @media (--breakpoint-large) {
-  .i-l       { font-style: italic; }
-  .fs-normal-l     { font-style: normal; }
+.i-l       { font-style: italic; }
+.fs-normal-l     { font-style: normal; }
 }
 
 /*
 
-  TEXT ALIGN
+TEXT ALIGN
 
-  Base
-    t = text-align
+Base
+  t = text-align
 
-  Modifiers
-    l = left
-    r = right
-    c = center
+Modifiers
+  l = left
+  r = right
+  c = center
 
-  Media Query Extensions:
-    -ns = not-small
-    -m  = medium
-    -l  = large
+Media Query Extensions:
+  -ns = not-small
+  -m  = medium
+  -l  = large
 
 */
 
@@ -159,40 +160,40 @@ permalink: /type-styles/
 .tc  { text-align: center; }
 
 @media (--breakpoint-not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
+.tl-ns  { text-align: left; }
+.tr-ns  { text-align: right; }
+.tc-ns  { text-align: center; }
 }
 
 @media (--breakpoint-medium) {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
+.tl-m  { text-align: left; }
+.tr-m  { text-align: right; }
+.tc-m  { text-align: center; }
 }
 
 @media (--breakpoint-large) {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
+.tl-l  { text-align: left; }
+.tr-l  { text-align: right; }
+.tc-l  { text-align: center; }
 }
 
 /*
 
-   TEXT TRANSFORM
+ TEXT TRANSFORM
 
-   Base:
-     tt = text-transform
+ Base:
+   tt = text-transform
 
-   Modifiers
-     c = capitalize
-     l = lowercase
-     u = uppercase
-     n = none
+ Modifiers
+   c = capitalize
+   l = lowercase
+   u = uppercase
+   n = none
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+ Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
 
 */
 
@@ -202,34 +203,34 @@ permalink: /type-styles/
 .ttn { text-transform: none; }
 
 @media (--breakpoint-not-small) {
-  .ttc-ns { text-transform: capitalize; }
-  .ttl-ns { text-transform: lowercase; }
-  .ttu-ns { text-transform: uppercase; }
-  .ttn-ns { text-transform: none; }
+.ttc-ns { text-transform: capitalize; }
+.ttl-ns { text-transform: lowercase; }
+.ttu-ns { text-transform: uppercase; }
+.ttn-ns { text-transform: none; }
 }
 
 @media (--breakpoint-medium) {
-  .ttc-m { text-transform: capitalize; }
-  .ttl-m { text-transform: lowercase; }
-  .ttu-m { text-transform: uppercase; }
-  .ttn-m { text-transform: none; }
+.ttc-m { text-transform: capitalize; }
+.ttl-m { text-transform: lowercase; }
+.ttu-m { text-transform: uppercase; }
+.ttn-m { text-transform: none; }
 }
 
 @media (--breakpoint-large) {
-  .ttc-l { text-transform: capitalize; }
-  .ttl-l { text-transform: lowercase; }
-  .ttu-l { text-transform: uppercase; }
-  .ttn-l { text-transform: none; }
+.ttc-l { text-transform: capitalize; }
+.ttl-l { text-transform: lowercase; }
+.ttu-l { text-transform: uppercase; }
+.ttn-l { text-transform: none; }
 }
 
 /*
 
-   TEXT DECORATION
+ TEXT DECORATION
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+ Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
 
 */
 
@@ -238,23 +239,20 @@ permalink: /type-styles/
 .no-underline { text-decoration: none; }
 
 @media (--breakpoint-not-small) {
-  .strike-ns       { text-decoration: line-through; }
-  .underline-ns    { text-decoration: underline; }
-  .no-underline-ns { text-decoration: none; }
+.strike-ns       { text-decoration: line-through; }
+.underline-ns    { text-decoration: underline; }
+.no-underline-ns { text-decoration: none; }
 }
 
 @media (--breakpoint-medium) {
-  .strike-m       { text-decoration: line-through; }
-  .underline-m    { text-decoration: underline; }
-  .no-underline-m { text-decoration: none; }
+.strike-m       { text-decoration: line-through; }
+.underline-m    { text-decoration: underline; }
+.no-underline-m { text-decoration: none; }
 }
 
 @media (--breakpoint-large) {
-  .strike-l       { text-decoration: line-through; }
-  .underline-l {    text-decoration: underline; }
-  .no-underline-l { text-decoration: none; }
+.strike-l       { text-decoration: line-through; }
+.underline-l {    text-decoration: underline; }
+.no-underline-l { text-decoration: none; }
 }
-  </code>
-</pre>
-
-</article>
+{% endhighlight %}

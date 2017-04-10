@@ -6,9 +6,9 @@ permalink: /usage/
 <article class="mv4">
   {% include title.html text=page.title %}
   <p class="lh-copy measure">
-    There are three resources that make up the Fender Design System;
+    There are three resources that make up the Fender Design System:
     <ul class="list pl2 ml3 bl b--gray">
-      <li class="ttu mb2"><a href="http://github.com/fenderdigital/tachyons" class="dim link red">Utilities</a></li>
+      <li class="ttu mb2"><a href="http://github.com/fenderdigital/css-utilities" class="dim link red">Utilities</a></li>
       <li class="ttu mb2"><a href="http://github.com/fenderdigital/fender-web-fonts" class="dim link red">Webfonts</a></li>
       <li class="ttu mb2"><a href="http://github.com/fenderdigital/css-icons" class="dim link red">Icon Library</a></li>
     </ul>
@@ -21,22 +21,18 @@ permalink: /usage/
     Copy this into an HTML page, and then open that page in your browser in order to start prototyping UI elements and Layouts.
   </p>
 
-<div class="bg-near-white">
-  <pre>
-  <code class="f7">
-  &lt;!DOCTYPE html&gt;
-  &lt;html lang="en"&gt;
-    &lt;title&gt;Prototyping Template&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-    &lt;link rel="stylesheet" href="https://rawgit.com/fenderdigital/tachyons/master/css/tachyons.min.css"&gt;
-    &lt;link rel="stylesheet" href="https://rawgit.com/fenderdigital/fender-web-fonts/master/fonts/fonts.css"&gt;
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+  <title>Prototyping Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://rawgit.com/fenderdigital/css-utilities/master/css/utilities.min.css">
+  <link rel="stylesheet" href="https://rawgit.com/fenderdigital/fender-web-fonts/master/fonts/fonts.css">
 
-    &lt;body&gt;
+  <body>
 
-    &lt;/body&gt;
-  &lt;/html&gt;
-    </code>
-  </pre>
-</div>
+  </body>
+</html>
+{% endhighlight %}
 
 </article>

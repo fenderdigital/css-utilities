@@ -119,7 +119,7 @@ permalink: /grayscale/
     </tbody>
   </table>
   <h3 class="f3">White Opacities</h3>
-  <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
+  <table class="border-collapse w-100 mb4" cellspacing="0" cellpadding="0">
     <tbody class="bg-dark-gray">
       <tr>
         <td class="bb b--black-05 bg-white-90 pa4"></td>
@@ -168,8 +168,49 @@ permalink: /grayscale/
       </tr>
     </tbody>
   </table>
-<pre>
-<code class="f7 lh-copy">
+{% highlight CSS %}
+:root {
+  --black: #000;
+  --near-black: #222;
+  --dark-gray:#4a4a4a;
+  --mid-gray:#666;
+  --gray: #888;
+  --silver: #999;
+  --light-silver: #aaa;
+  --moon-gray: #ccc;
+  --light-gray: #e0e0e0;
+  --near-white: #f9f9f9;
+  --white: #fff;
+
+  --transparent:transparent;
+
+ --black-90: rgba(0,0,0,.9);
+ --black-80: rgba(0,0,0,.8);
+ --black-70: rgba(0,0,0,.7);
+ --black-60: rgba(0,0,0,.6);
+ --black-50: rgba(0,0,0,.5);
+ --black-40: rgba(0,0,0,.4);
+ --black-30: rgba(0,0,0,.3);
+ --black-20: rgba(0,0,0,.2);
+ --black-10: rgba(0,0,0,.1);
+ --black-05: rgba(0,0,0,.05);
+ --black-025: rgba(0,0,0,.025);
+ --black-0125: rgba(0,0,0,.0125);
+
+ --white-90: rgba(255,255,255,.9);
+ --white-80: rgba(255,255,255,.8);
+ --white-70: rgba(255,255,255,.7);
+ --white-60: rgba(255,255,255,.6);
+ --white-50: rgba(255,255,255,.5);
+ --white-40: rgba(255,255,255,.4);
+ --white-30: rgba(255,255,255,.3);
+ --white-20: rgba(255,255,255,.2);
+ --white-10: rgba(255,255,255,.1);
+ --white-05: rgba(255,255,255,.05);
+ --white-025: rgba(255,255,255,.025);
+ --white-0125: rgba(255,255,255,.0125);
+}
+
 .bg-black {         background-color: var(--black); }
 .bg-near-black {    background-color: var(--near-black); }
 .bg-dark-gray {     background-color: var(--dark-gray); }
@@ -225,6 +266,5 @@ permalink: /grayscale/
 .white-30 { color: var(--white-30); }
 .white-20 { color: var(--white-20); }
 .white-10 { color: var(--white-10); }
-</code>
-</pre>
+{% endhighlight %}
 </article>
