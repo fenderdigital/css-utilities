@@ -1,0 +1,676 @@
+---
+layout: design-system
+title: Borders
+permalink: /borders/
+---
+<article class="mv4">
+    {% include title.html text=page.title %}
+  <p class="measure lh-copy">
+    There is a base border module that can be extended with the
+    border-width, border-color, border-style modules. By default you
+    don't need to set a border color. It will just inherit whatever the
+    text color is for that dom node. You can target any side to put a border
+    on ie. top, right, bottom, left.
+  </p>
+
+<h3 class="f5 pt4 ttu tracked">Border Base</h3>
+<h4 class="mb0 fw6">Border</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba"&gt; &lt;/div&gt;
+</code>
+<div class="ba pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+
+<h4 class="mb0 fw6">Border Top</h4>
+<code class="f6 mv2 db">
+&lt;div class="bt"&gt; &lt;/div&gt;
+</code>
+<div class="bt pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+
+<h4 class="mb0 fw6">Border Right</h4>
+<code class="f6 mv2 db">
+&lt;div class="br"&gt; &lt;/div&gt;
+</code>
+<div class="br pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+
+<h4 class="mb0 fw6">Border Bottom</h4>
+<code class="f6 mv2 db">
+&lt;div class="bb"&gt; &lt;/div&gt;
+</code>
+<div class="bb pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+
+<h4 class="mb0 fw6">Border Left</h4>
+<code class="f6 mv2 db">
+&lt;div class="bl"&gt; &lt;/div&gt;
+</code>
+<div class="bl pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+<div>
+<h3 class="f5 pt4 ttu tracked">Border Styles</h3>
+<h4 class="mb0 fw6">Dashed</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed pv3 f5 nowrap bg-washed-red db mw6 mb2"></div>
+
+<h4 class="mb0 fw6">Dotted</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted pv3 f5 nowrap bg-washed-red db mw6 mb2"></div>
+
+<h4 class="mb0 fw6">Solid (default)</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba"&gt; &lt;/div&gt;
+</code>
+<div class="ba pv3 f5 nowrap bg-washed-red db mw6 mb2"></div>
+</div>
+<div>
+<h3 class="f5 pt4 ttu tracked">Border Widths</h3>
+<h4 class="mb0 fw6">Solid (default)</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba bw1"&gt; &lt;/div&gt;
+</code>
+<div class="ba bw1 pv3 f5 nowrap bg-washed-red db mb3 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba bw2"&gt; &lt;/div&gt;
+</code>
+<div class="ba bw2 pv3 f5 nowrap bg-washed-red db mb3 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba bw3"&gt; &lt;/div&gt;
+</code>
+<div class="ba bw3 pv3 f5 nowrap bg-washed-red db mb3 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba bw4"&gt; &lt;/div&gt;
+</code>
+<div class="ba bw4 pv3 f5 nowrap bg-washed-red db mb3 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba bw5"&gt; &lt;/div&gt;
+</code>
+<div class="ba bw5 pv3 f5 nowrap bg-washed-red db mb2 mw5"></div>
+
+<h4 class="mb0 fw6 mt4">Dotted</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted bw1"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted bw1 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted bw2"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted bw2 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted bw3"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted bw3 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted bw4"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted bw4 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dotted bw5"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dotted bw5 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<h4 class="mb0 fw6 mt4">Dashed</h4>
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed bw1"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed bw1 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed bw2"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed bw2 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed bw3"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed bw3 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed bw4"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed bw4 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dashed bw5"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dashed bw5 pv3 f5 nowrap bg-washed-red db mb4 mw5"></div>
+
+<h3 class="f5 pt4 ttu tracked">Border Colors</h3>
+<code class="f6 mv2 db">
+&lt;div class="ba b--black"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--near-black"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--near-black pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--dark-gray"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dark-gray pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--mid-gray"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--mid-gray pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--gray"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--gray pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--silver"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--silver pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--light-silver"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-silver pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--light-gray"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-gray pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 mv2 db">
+&lt;div class="ba b--near-white"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--near-white pv3 f5 nowrap  db mb4 mw5"></div>
+
+<div class="pa2 bg-black">
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-90"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-90  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-80"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-80  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-70"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-70  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-60"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-60  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-50"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-50  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-40"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-40  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-30"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-30  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-20"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-20  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-10"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-10  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-05"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-05  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 white mv2 db">
+  &lt;div class="ba b--white-025"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--white-025 pv3 f5 nowrap  db mb4 mw5"></div>
+</div>
+<code class="f6 black mt5 mb2 db">
+&lt;div class="ba b--black"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-90"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-90  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-80"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-80  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-70"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-70  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-60"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-60  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-50"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-50  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-40"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-40  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-30"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-30  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-20"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-20  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-10"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-10  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-05"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-05  pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--black-025"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--black-025 pv3 f5 nowrap  db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--dark-red"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dark-red   pv3 f5 nowrap db mb4 mw5"></div>
+
+<code class="f6 black mv2 db">
+&lt;div class="ba b--dark-red"&gt; &lt;/div&gt;
+</code>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--red"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--red  pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--orange"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--orange   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--gold"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--gold   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--yellow"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--yellow   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--purple"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--purple   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--light-purple"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-purple   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--hot-pink"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--hot-pink   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--dark-pink"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dark-pink   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--pink"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--pink   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--dark-green"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dark-green   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--green"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--green   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--navy"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--navy   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--dark-blue"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--dark-blue   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--blue"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--blue   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--light-blue"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-blue   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--lightest-blue"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--lightest-blue   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--washed-red"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--washed-red   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--washed-green"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--washed-green   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--washed-yellow"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--washed-yellow   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--light-pink"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-pink   pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--light-yellow"&gt; &lt;/div&gt;
+</code>
+<div class="ba b--light-yellow pv3 f5 nowrap db mb4 mw5"></div>
+<code class="f6 black mv2 db">
+&lt;div class="ba b--light-red"&gt; &lt;/div&gt;
+</code>
+</article>
+{% highlight CSS %}
+/*
+
+    BORDERS
+
+    Base:
+      b = border
+
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+  .ba { border-style: solid; border-width: 1px; }
+  .bt { border-top-style: solid; border-top-width: 1px; }
+  .br { border-right-style: solid; border-right-width: 1px; }
+  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl { border-left-style: solid; border-left-width: 1px; }
+  .bn { border-style: none; border-width: 0; }
+
+
+@media (--breakpoint-not-small) {
+  .ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bn-ns { border-style: none; border-width: 0; }
+}
+
+@media (--breakpoint-medium) {
+  .ba-m { border-style: solid; border-width: 1px; }
+  .bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bn-m { border-style: none; border-width: 0; }
+}
+
+@media (--breakpoint-large) {
+  .ba-l { border-style: solid; border-width: 1px; }
+  .bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bn-l { border-style: none; border-width: 0; }
+}
+
+/*
+
+   BORDER STYLES
+
+   Depends on base border module in _borders.css
+
+   Base:
+     b = border-style
+
+   Modifiers:
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+ */
+
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid {  border-style: solid; }
+.b--none {   border-style: none; }
+
+@media (--breakpoint-not-small) {
+  .b--dotted-ns { border-style: dotted; }
+  .b--dashed-ns { border-style: dashed; }
+  .b--solid-ns {  border-style: solid; }
+  .b--none-ns {   border-style: none; }
+}
+
+@media (--breakpoint-medium) {
+  .b--dotted-m { border-style: dotted; }
+  .b--dashed-m { border-style: dashed; }
+  .b--solid-m {  border-style: solid; }
+  .b--none-m {   border-style: none; }
+}
+
+@media (--breakpoint-large) {
+  .b--dotted-l { border-style: dotted; }
+  .b--dashed-l { border-style: dashed; }
+  .b--solid-l {  border-style: solid; }
+  .b--none-l {   border-style: none; }
+}
+
+/*
+
+   BORDER WIDTHS
+
+   Base:
+     bw = border-width
+
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
+
+/* Resets */
+.bt-0 { border-top-width: 0; }
+.br-0 { border-right-width: 0; }
+.bb-0 { border-bottom-width: 0; }
+.bl-0 { border-left-width: 0; }
+
+@media (--breakpoint-not-small) {
+  .bw0-ns { border-width: 0; }
+  .bw1-ns { border-width: .125rem; }
+  .bw2-ns { border-width: .25rem; }
+  .bw3-ns { border-width: .5rem; }
+  .bw4-ns { border-width: 1rem; }
+  .bw5-ns { border-width: 2rem; }
+  .bt-0-ns { border-top-width: 0; }
+  .br-0-ns { border-right-width: 0; }
+  .bb-0-ns { border-bottom-width: 0; }
+  .bl-0-ns { border-left-width: 0; }
+}
+
+@media (--breakpoint-medium) {
+  .bw0-m { border-width: 0; }
+  .bw1-m { border-width: .125rem; }
+  .bw2-m { border-width: .25rem; }
+  .bw3-m { border-width: .5rem; }
+  .bw4-m { border-width: 1rem; }
+  .bw5-m { border-width: 2rem; }
+  .bt-0-m { border-top-width: 0; }
+  .br-0-m { border-right-width: 0; }
+  .bb-0-m { border-bottom-width: 0; }
+  .bl-0-m { border-left-width: 0; }
+}
+
+@media (--breakpoint-large) {
+  .bw0-l { border-width: 0; }
+  .bw1-l { border-width: .125rem; }
+  .bw2-l { border-width: .25rem; }
+  .bw3-l { border-width: .5rem; }
+  .bw4-l { border-width: 1rem; }
+  .bw5-l { border-width: 2rem; }
+  .bt-0-l { border-top-width: 0; }
+  .br-0-l { border-right-width: 0; }
+  .bb-0-l { border-bottom-width: 0; }
+  .bl-0-l { border-left-width: 0; }
+}
+
+/*
+
+   BORDER COLORS
+
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
+
+*/
+
+.b--black {        border-color: var(--black); }
+.b--near-black {   border-color: var(--near-black); }
+.b--dark-gray {    border-color: var(--dark-gray); }
+.b--mid-gray {     border-color: var(--mid-gray); }
+.b--gray {         border-color: var(--gray); }
+.b--silver {       border-color: var(--silver); }
+.b--light-silver { border-color: var(--light-silver); }
+.b--moon-gray {    border-color: var(--moon-gray); }
+.b--light-gray {   border-color: var(--light-gray); }
+.b--near-white {   border-color: var(--near-white); }
+.b--white {        border-color: var(--white); }
+
+.b--white-90 {   border-color: var(--white-90); }
+.b--white-80 {   border-color: var(--white-80); }
+.b--white-70 {   border-color: var(--white-70); }
+.b--white-60 {   border-color: var(--white-60); }
+.b--white-50 {   border-color: var(--white-50); }
+.b--white-40 {   border-color: var(--white-40); }
+.b--white-30 {   border-color: var(--white-30); }
+.b--white-20 {   border-color: var(--white-20); }
+.b--white-10 {   border-color: var(--white-10); }
+.b--white-05 {   border-color: var(--white-05); }
+.b--white-025 {   border-color: var(--white-025); }
+.b--white-0125 {   border-color: var(--white-0125); }
+
+.b--black-90 {   border-color: var(--black-90); }
+.b--black-80 {   border-color: var(--black-80); }
+.b--black-70 {   border-color: var(--black-70); }
+.b--black-60 {   border-color: var(--black-60); }
+.b--black-50 {   border-color: var(--black-50); }
+.b--black-40 {   border-color: var(--black-40); }
+.b--black-30 {   border-color: var(--black-30); }
+.b--black-20 {   border-color: var(--black-20); }
+.b--black-10 {   border-color: var(--black-10); }
+.b--black-05 {   border-color: var(--black-05); }
+.b--black-025 {   border-color: var(--black-025); }
+.b--black-0125 {   border-color: var(--black-0125); }
+
+.b--dark-red { border-color: var(--dark-red); }
+.b--red { border-color: var(--red); }
+.b--light-red { border-color: var(--light-red); }
+.b--orange { border-color: var(--orange); }
+.b--gold { border-color: var(--gold); }
+.b--yellow { border-color: var(--yellow); }
+.b--dark-yellow { border-color: var(--dark-yellow); }
+.b--light-yellow { border-color: var(--light-yellow); }
+.b--purple { border-color: var(--purple); }
+.b--light-purple { border-color: var(--light-purple); }
+.b--dark-pink { border-color: var(--dark-pink); }
+.b--hot-pink { border-color: var(--hot-pink); }
+.b--pink { border-color: var(--pink); }
+.b--light-pink { border-color: var(--light-pink); }
+.b--dark-green { border-color: var(--dark-green); }
+.b--green { border-color: var(--green); }
+.b--light-green { border-color: var(--light-green); }
+.b--teal { border-color: var(--teal); }
+.b--navy { border-color: var(--navy); }
+.b--dark-blue { border-color: var(--dark-blue); }
+.b--blue { border-color: var(--blue); }
+.b--light-blue { border-color: var(--light-blue); }
+.b--lightest-blue { border-color: var(--lightest-blue); }
+.b--washed-blue { border-color: var(--washed-blue); }
+.b--washed-green { border-color: var(--washed-green); }
+.b--washed-yellow { border-color: var(--washed-yellow); }
+.b--washed-red { border-color: var(--washed-red); }
+
+.b--transparent { border-color: var(--transparent); }
+
+{% endhighlight %}
