@@ -8,31 +8,47 @@ permalink: /usage/
   <p class="lh-copy measure">
     There are three resources that make up the Fender Design System:
     <ul class="list pl2 ml3 bl b--gray">
-      <li class="ttu mb2"><a href="http://github.com/fenderdigital/css-utilities" class="dim link red">Utilities</a></li>
-      <li class="ttu mb2"><a href="http://github.com/fenderdigital/fender-web-fonts" class="dim link red">Webfonts</a></li>
-      <li class="ttu mb2"><a href="http://github.com/fenderdigital/css-icons" class="dim link red">Icon Library</a></li>
+      <li class="ttu mb2"><a href="http://github.com/fenderdigital/css-utilities" class="dim link red" target="_blank">Utilities</a></li>
+      <li class="ttu mb2"><a href="http://github.com/fenderdigital/fender-web-fonts" class="dim link red" target="_blank">Webfonts</a></li>
+      <li class="ttu mb2"><a href="http://github.com/fenderdigital/icon-library" class="dim link red" target="_blank">Icon Library</a></li>
     </ul>
   </p>
-  <p class="lh-copy measure">
-    The simplest way to get started is to include the resources in the head of your project like you would the project level CSS.
-  </p>
-  <h3 class="f5 ttu">Prototyping Template</h3>
-  <p class="lh-copy measure">
-    Copy this into an HTML page, and then open that page in your browser in order to start prototyping UI elements and Layouts.
-  </p>
+
+<h3 class="f5 ttu">Prototyping Template</h3>
+<p class="lh-copy measure">
+  Copy this into an HTML page, and then open that page in your browser in order to start prototyping UI elements and Layouts.
+</p>
 
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
   <title>Prototyping Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://rawgit.com/fenderdigital/css-utilities/master/css/utilities.min.css">
   <link rel="stylesheet" href="https://rawgit.com/fenderdigital/fender-web-fonts/master/fonts/fonts.css">
+  <link rel="stylesheet" href="https://rawgit.com/fenderdigital/icon-library/master/dist/icon-library.min.css">
 
   <body>
 
   </body>
 </html>
 {% endhighlight %}
+
+<p class="lh-copy measure">
+  The easiest way to get started is to include the resources in the head of a project. These three libraries should cover 95% of use cases.
+</p>
+
+{% highlight html %}
+<link rel="stylesheet" href="https://rawgit.com/fenderdigital/css-utilities/master/css/utilities.min.css">
+<link rel="stylesheet" href="https://rawgit.com/fenderdigital/fender-web-fonts/master/fonts/fonts.css">
+<link rel="stylesheet" href="https://rawgit.com/fenderdigital/icon-library/master/dist/icon-library.min.css">
+{% endhighlight %}
+
+
+<h3 class="f5 ttu">In Production</h3>
+<p class="lh-copy measure">
+  TBD on the CDN
+</p>
 
 </article>
