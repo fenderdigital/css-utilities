@@ -137,6 +137,8 @@
 .hover-light-red:focus { color: var(--light-red); }
 .hover-orange:hover,
 .hover-orange:focus { color: var(--orange); }
+.hover-brown:hover,
+.hover-brown:focus { color: var(--brown); }
 .hover-gold:hover,
 .hover-gold:focus { color: var(--gold); }
 .hover-yellow:hover,
@@ -147,8 +149,8 @@
 .hover-light-yellow:focus { color: var(--light-yellow); }
 .hover-purple:hover,
 .hover-purple:focus { color: var(--purple); }
-.hover-light-purple:hover,
-.hover-light-purple:focus { color: var(--light-purple); }
+.hover-dark-purple:hover,
+.hover-dark-purple:focus { color: var(--dark-purple); }
 .hover-dark-pink:hover,
 .hover-dark-pink:focus { color: var(--dark-pink); }
 .hover-hot-pink:hover,
@@ -161,9 +163,12 @@
 .hover-dark-green:focus { color: var(--dark-green); }
 .hover-green:hover,
 .hover-green:focus { color: var(--green); }
-.hover-light-green:hover,
-.hover-light-green:focus { color: var(--light-green); }
+.hover-olive-green:hover,
+.hover-olive-green:focus { color: var(--olive-green); }
+.hover-teal:hover,
 .hover-teal:focus { color: var(--teal); }
+.hover-dark-teal:hover,
+.hover-dark-teal:focus { color: var(--dark-teal); }
 .hover-navy:hover,
 .hover-navy:focus { color: var(--navy); }
 .hover-dark-blue:hover,
@@ -201,8 +206,8 @@
 .hover-bg-light-yellow:focus { background-color: var(--light-yellow); }
 .hover-bg-purple:hover,
 .hover-bg-purple:focus { background-color: var(--purple); }
-.hover-bg-light-purple:hover,
-.hover-bg-light-purple:focus { background-color: var(--light-purple); }
+.hover-bg-dark-purple:hover,
+.hover-bg-dark-purple:focus { background-color: var(--dark-purple); }
 .hover-bg-dark-pink:hover,
 .hover-bg-dark-pink:focus { background-color: var(--dark-pink); }
 .hover-bg-hot-pink:hover,
@@ -215,10 +220,12 @@
 .hover-bg-dark-green:focus { background-color: var(--dark-green); }
 .hover-bg-green:hover,
 .hover-bg-green:focus { background-color: var(--green); }
-.hover-bg-light-green:hover,
-.hover-bg-light-green:focus { background-color: var(--light-green); }
+.hover-bg-olive-green:hover,
+.hover-bg-olive-green:focus { background-color: var(--olive-green); }
 .hover-bg-teal:hover,
 .hover-bg-teal:focus { background-color: var(--teal); }
+.hover-bg-dark-teal:hover,
+.hover-bg-dark-teal:focus { background-color: var(--dark-teal); }
 .hover-bg-navy:hover,
 .hover-bg-navy:focus { background-color: var(--navy); }
 .hover-bg-dark-blue:hover,
