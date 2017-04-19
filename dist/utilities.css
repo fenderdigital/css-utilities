@@ -312,6 +312,7 @@ img { max-width: 100%; }
     -right = center right
     -bottom = bottom center
     -left = center left
+    -none = none
 
     Media Query Extensions:
       -ns = not-small
@@ -324,6 +325,7 @@ img { max-width: 100%; }
 .bg-right { background-repeat: no-repeat; background-position: center right; }
 .bg-bottom { background-repeat: no-repeat; background-position: bottom center; }
 .bg-left { background-repeat: no-repeat; background-position: center left; }
+.bg-none { background: none; }
 /*
 
    OUTLINES
@@ -2085,6 +2087,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg-right-ns { background-repeat: no-repeat; background-position: center right; }
  .bg-bottom-ns { background-repeat: no-repeat; background-position: bottom center; }
  .bg-left-ns { background-repeat: no-repeat; background-position: center left; }
+ .bg-none-ns { background: none; }
  .outline-ns { outline: 1px solid; }
  .outline-transparent-ns { outline: 1px solid transparent; }
  .outline-0-ns { outline: 0; }
@@ -2498,6 +2501,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg-right-m { background-repeat: no-repeat; background-position: center right; }
  .bg-bottom-m { background-repeat: no-repeat; background-position: bottom center; }
  .bg-left-m { background-repeat: no-repeat; background-position: center left; }
+ .bg-none-m { background: none; }
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }
@@ -2914,6 +2918,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg-right-l { background-repeat: no-repeat; background-position: center right; }
  .bg-bottom-l { background-repeat: no-repeat; background-position: bottom center; }
  .bg-left-l { background-repeat: no-repeat; background-position: center left; }
+ .bg-none-l { background: none; }
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
