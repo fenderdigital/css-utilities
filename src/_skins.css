@@ -66,6 +66,7 @@
 .navy { color: var(--navy); }
 .dark-blue { color: var(--dark-blue); }
 .blue { color: var(--blue); }
+.blue-gray { color: var(--blue-gray); }
 .light-blue { color: var(--light-blue); }
 .lightest-blue { color: var(--lightest-blue); }
 .washed-blue { color: var(--washed-blue); }
@@ -133,6 +134,7 @@
 .bg-navy { background-color: var(--navy); }
 .bg-dark-blue { background-color: var(--dark-blue); }
 .bg-blue { background-color: var(--blue); }
+.bg-blue-gray { background-color: var(--blue-gray); }
 .bg-light-blue { background-color: var(--light-blue); }
 .bg-lightest-blue { background-color: var(--lightest-blue); }
 .bg-washed-blue { background-color: var(--washed-blue); }

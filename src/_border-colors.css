@@ -78,6 +78,7 @@
 .b--navy { border-color: var(--navy); }
 .b--dark-blue { border-color: var(--dark-blue); }
 .b--blue { border-color: var(--blue); }
+.b--blue-gray { border-color: var(--blue-gray); }
 .b--light-blue { border-color: var(--light-blue); }
 .b--lightest-blue { border-color: var(--lightest-blue); }
 .b--washed-blue { border-color: var(--washed-blue); }

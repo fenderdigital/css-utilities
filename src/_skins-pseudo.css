@@ -175,6 +175,8 @@
 .hover-dark-blue:focus { color: var(--dark-blue); }
 .hover-blue:hover,
 .hover-blue:focus { color: var(--blue); }
+.hover-blue-gray:hover,
+.hover-blue-gray:focus { color: var(--blue-gray); }
 .hover-light-blue:hover,
 .hover-light-blue:focus { color: var(--light-blue); }
 .hover-lightest-blue:hover,
@@ -232,6 +234,8 @@
 .hover-bg-dark-blue:focus { background-color: var(--dark-blue); }
 .hover-bg-blue:hover,
 .hover-bg-blue:focus { background-color: var(--blue); }
+.hover-bg-blue-gray:hover,
+.hover-bg-blue-gray:focus { background-color: var(--blue-gray); }
 .hover-bg-light-blue:hover,
 .hover-bg-light-blue:focus { background-color: var(--light-blue); }
 .hover-bg-lightest-blue:hover,
