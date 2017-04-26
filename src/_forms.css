@@ -9,6 +9,10 @@
   -moz-appearance: none;
 }
 
+.input-reset::-ms-expand {
+  display: none; 
+} 
+
 .button-reset::-moz-focus-inner,
 .input-reset::-moz-focus-inner {
   border: 0;
