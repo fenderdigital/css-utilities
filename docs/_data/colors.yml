@@ -1,0 +1,125 @@
+palette:
+  - name: dark-red
+    value: "#b12419"
+  - name: red
+    value: "#d52b1e"
+  - name: light-red
+    value: "#ff725c"
+  - name: orange
+    value: "#E85A00"
+  - name: brown
+    value: "#5f4132"
+  - name: gold
+    value: "#df8900"
+  - name: yellow
+    value: "#ffd700"
+  - name: dark-yellow
+    value: "#febb31"
+  - name: light-yellow
+    value: "#fbf1a9"
+  - name: purple
+    value: "#6e3d99"
+  - name: dark-purple
+    value: "#2f1944"
+  - name: dark-pink
+    value: "#9f0050"
+  - name: hot-pink
+    value: "#ff41b4"
+  - name: pink
+    value: "#ff80cc"
+  - name: light-pink
+    value: "#ffa3d7"
+  - name: dark-green
+    value: "#156E02"
+  - name: green
+    value: "#2ac278"
+  - name: olive-green
+    value: "#3d422a"
+  - name: teal
+    value: "#06807E"
+  - name: navy
+    value: "#001b44"
+  - name: dark-blue
+    value: "#185B9D"
+  - name: blue
+    value: "#038cca"
+  - name: blue-gray
+    value: "#4b6782"
+  - name: light-blue
+    value: "#96ccff"
+  - name: lightest-blue
+    value: "#cdecff"
+  - name: washed-blue
+    value: "#f6fffe"
+  - name: washed-green
+    value: "#e8fdf5"
+  - name: washed-yellow
+    value: "#fffceb"
+  - name: washed-red
+    value: "#ffdfdf"
+
+grayscale:
+  - name: black
+    value: "#000"
+  - name: near-black
+    value: "#222"
+  - name: dark-gray
+    value: "#4a4a4a"
+  - name: mid-gray
+    value: "#666"
+  - name: gray
+    value: "#888"
+  - name: silver
+    value: "#999"
+  - name: light-silver
+    value: "#aaa"
+  - name: moon-gray
+    value: "#ccc"
+  - name: light-gray
+    value: "#e0e0e0"
+  - name: near-white
+    value: "#f9f9f9"
+  - name: white
+    value: "#fff"
+
+black-opacities:
+  - name: black-90
+    value: rgba(0,0,0,.9)
+  - name: black-80
+    value: rgba(0,0,0,.8)
+  - name: black-70
+    value: rgba(0,0,0,.7)
+  - name: black-60
+    value: rgba(0,0,0,.6)
+  - name: black-50
+    value: rgba(0,0,0,.5)
+  - name: black-40
+    value: rgba(0,0,0,.4)
+  - name: black-30
+    value: rgba(0,0,0,.3)
+  - name: black-20
+    value: rgba(0,0,0,.2)
+  - name: black-10
+    value: rgba(0,0,0,.1)
+  - name: black-05
+    value: rgba(0,0,0,.05)
+
+white-opacities:
+  - name: white-90
+    value: rgba(255,255,255,.9)
+  - name: white-80
+    value: rgba(255,255,255,.8)
+  - name: white-70
+    value: rgba(255,255,255,.7)
+  - name: white-60
+    value: rgba(255,255,255,.6)
+  - name: white-50
+    value: rgba(255,255,255,.5)
+  - name: white-40
+    value: rgba(255,255,255,.4)
+  - name: white-30
+    value: rgba(255,255,255,.3)
+  - name: white-20
+    value: rgba(255,255,255,.2)
+  - name: white-10
+    value: rgba(255,255,255,.1)
