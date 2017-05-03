@@ -6,6 +6,9 @@ permalink: /gradients/
 
 <article class="mv4">
   {% include title.html text=page.title %}
+  <section class="bg-gradient-near-white-to-white flex items-center justify-center vh-100 w-100">
+    <h2 class="f5 code dark-gray">.bg-gradient-near-white-to-white</h2>
+  </section>
   <section class="bg-gradient-light-gray-to-moon-gray flex items-center justify-center vh-100 w-100">
     <h2 class="f5 code dark-gray">.bg-gradient-light-gray-to-moon-gray</h2>
   </section>
@@ -24,7 +27,12 @@ permalink: /gradients/
 
   BACKGROUND GRADIENTS
 
- */
+*/
+
+.bg-gradient-near-white-to-white {
+  background: var(--near-white);
+  background: linear-gradient(to bottom, var(--near-white), var(--white));
+ }
 
 .bg-gradient-light-gray-to-moongray {
   background: var(--light-gray);

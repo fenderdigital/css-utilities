@@ -4,6 +4,11 @@
 
  */
 
+.bg-gradient-near-white-to-white {
+  background: var(--near-white);
+  background: linear-gradient(to bottom, var(--near-white), var(--white));
+}
+
 .bg-gradient-light-gray-to-moon-gray {
   background: var(--light-gray);
   background: linear-gradient(to bottom, var(--light-gray), var(--moon-gray));
