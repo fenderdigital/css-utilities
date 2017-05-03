@@ -11,260 +11,66 @@ permalink: /grayscale/
   </div>
   <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
     <tbody class="black-60">
-      <tr>
-        <td class="bb b--black-05 bg-black pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b black">Aa</td>
-        <td class="bb b--black-05 code">.bg-black, .black = #000;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-near-black pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b near-black">Aa</td>
-        <td class="bb b--black-05 code">.bg-near-black, .near-black = #222;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-dark-gray pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b dark-gray">Aa</td>
-        <td class="bb b--black-05 code">.bg-dark-gray, .dark-gray = #4a4a4a;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-mid-gray pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b mid-gray">Aa</td>
-        <td class="bb b--black-05 code">.bg-mid-gray, .mid-gray = #666;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-gray pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b gray">Aa</td>
-        <td class="bb b--black-05 code">.bg-gray, .gray = #888;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-silver pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b silver">Aa</td>
-        <td class="bb b--black-05 code">.bg-silver, .silver = #999;</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-moon-gray pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b moon-gray">Aa</td>
-        <td class="bb b--black-05 code">.bg-moon-gray, .moon-gray = #ccc;</td>
-      </tr>
-      <tr class="bg-dark-gray">
-        <td class="bb b--black-05 bg-light-gray pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b light-gray">Aa</td>
-        <td class="bb b--black-05 code white">.bg-light-gray, .light-gray = #e0e0e0;</td>
-      </tr>
-      <tr class="bg-dark-gray">
-        <td class="bb b--black-05 bg-near-white pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b near-white">Aa</td>
-        <td class="bb b--black-05 code white">.bg-near-white, .near-white = #f9f9f9;</td>
-      </tr>
-      <tr class="bg-dark-gray">
-        <td class="bb b--black-05 bg-white pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b white">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white, .white = #fff;</td>
-      </tr>
+      {% for color in site.data.colors.grayscale %}
+        <tr>
+          <td class="bb b--black-05 bg-{{ color.name }} pa4"></td>
+          <td class="bb b--black-05 ph4 f4 b {{ color.name }}">Aa</td>
+          <td class="bb b--black-05 code">.bg-{{ color.name }}, .{{ color.name }} = {{ color.value }};</td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
   <h3 class="f3">Black Opacities</h3>
   <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
     <tbody class="black-60">
-      <tr>
-        <td class="bb b--black-05 bg-black-90 f4 pa3">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-90">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-90, .black-90 = rgba(0,0,0,.9);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-80 f4 pa3">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-80">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-80, .black-80 = rgba(0,0,0,.8);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-70 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-70">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-70, .black-70 = rgba(0,0,0,.7);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-60 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-60">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-60, .black-60 = rgba(0,0,0,.6);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-50 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-50">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-50, .black-50 = rgba(0,0,0,.5);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-40 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-40">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-40, .black-40 = rgba(0,0,0,.4);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-30 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-30">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-30, .black-30 = rgba(0,0,0,.3);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-20 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-20">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-20, .black-20 = rgba(0,0,0,.2);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-10 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-10">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-10, .black-10 = rgba(0,0,0,.1);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-black-05 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b black-05">Aa</td>
-        <td class="bb b--black-05 code">.bg-black-05, .black-05 = rgba(0,0,0,.05);</td>
-      </tr>
+      {% for color in site.data.colors.black-opacities %}
+        <tr>
+          <td class="bb b--black-05 bg-{{ color.name }} f4 pa3">Aa</td>
+          <td class="bb b--black-05 ph4 f4 b {{ color.name }}">Aa</td>
+          <td class="bb b--black-05 code">.bg-{{ color.name }}, .{{ color.name }} = {{ color.value }};</td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
   <h3 class="f3">White Opacities</h3>
   <table class="border-collapse w-100 mb4" cellspacing="0" cellpadding="0">
     <tbody class="bg-dark-gray">
-      <tr>
-        <td class="bb b--black-05 bg-white-90 pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b white-90">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-90, .white-90 = rgba(255,255,255,.9);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-80 pa4"></td>
-        <td class="bb b--black-05 ph4 f4 b white-80">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-80, .white-80 = rgba(255,255,255,.8);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-70 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-70">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-70, .white-70 = rgba(255,255,255,.7);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-60 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-60">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-60, .white-60 = rgba(255,255,255,.6);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-50 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-50">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-50, .white-50 = rgba(255,255,255,.5);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-40 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-40">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-40, .white-40 = rgba(255,255,255,.4);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-30 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-30">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-30, .white-30 = rgba(255,255,255,.3);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-20 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-20">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-20, .white-20 = rgba(255,255,255,.2);</td>
-      </tr>
-      <tr>
-        <td class="bb b--black-05 bg-white-10 pa3 f4">Aa</td>
-        <td class="bb b--black-05 ph4 f4 b white-10">Aa</td>
-        <td class="bb b--black-05 code white">.bg-white-10, .white-10 = rgba(255,255,255,.1);</td>
-      </tr>
+      {% for color in site.data.colors.white-opacities %}
+        <tr>
+          <td class="bb b--black-05 bg-{{ color.name }} f4 pa3">Aa</td>
+          <td class="bb b--black-05 ph4 f4 b {{ color.name }}">Aa</td>
+          <td class="bb b--black-05 code white">.bg-{{ color.name }}, .{{ color.name }} = {{ color.value }};</td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
 {% highlight CSS %}
 :root {
-  --black: #000;
-  --near-black: #222;
-  --dark-gray:#4a4a4a;
-  --mid-gray:#666;
-  --gray: #888;
-  --silver: #999;
-  --light-silver: #aaa;
-  --moon-gray: #ccc;
-  --light-gray: #e0e0e0;
-  --near-white: #f9f9f9;
-  --white: #fff;
-
-  --transparent:transparent;
-
- --black-90: rgba(0,0,0,.9);
- --black-80: rgba(0,0,0,.8);
- --black-70: rgba(0,0,0,.7);
- --black-60: rgba(0,0,0,.6);
- --black-50: rgba(0,0,0,.5);
- --black-40: rgba(0,0,0,.4);
- --black-30: rgba(0,0,0,.3);
- --black-20: rgba(0,0,0,.2);
- --black-10: rgba(0,0,0,.1);
- --black-05: rgba(0,0,0,.05);
- --black-025: rgba(0,0,0,.025);
- --black-0125: rgba(0,0,0,.0125);
-
- --white-90: rgba(255,255,255,.9);
- --white-80: rgba(255,255,255,.8);
- --white-70: rgba(255,255,255,.7);
- --white-60: rgba(255,255,255,.6);
- --white-50: rgba(255,255,255,.5);
- --white-40: rgba(255,255,255,.4);
- --white-30: rgba(255,255,255,.3);
- --white-20: rgba(255,255,255,.2);
- --white-10: rgba(255,255,255,.1);
- --white-05: rgba(255,255,255,.05);
- --white-025: rgba(255,255,255,.025);
- --white-0125: rgba(255,255,255,.0125);
+  {% for color in site.data.colors.grayscale %}
+  --{{ color.name }}: {{ color.value }};{% endfor %}
+  {% for color in site.data.colors.black-opacities %}
+  --{{ color.name }}: {{ color.value }};{% endfor %}
+  {% for color in site.data.colors.white-opacities %}
+  --{{ color.name }}: {{ color.value }};{% endfor %}
 }
 
-.bg-black {         background-color: var(--black); }
-.bg-near-black {    background-color: var(--near-black); }
-.bg-dark-gray {     background-color: var(--dark-gray); }
-.bg-mid-gray {      background-color: var(--mid-gray); }
-.bg-gray {          background-color: var(--gray); }
-.bg-silver  {       background-color: var(--silver); }
-.bg-light-silver {  background-color: var(--light-silver); }
-.bg-moon-gray {     background-color: var(--moon-gray); }
-.bg-light-gray {    background-color: var(--light-gray); }
-.bg-near-white {    background-color: var(--near-white); }
-.bg-white {         background-color: var(--white); }
-.bg-transparent {   background-color: var(--transparent); }
+{% for color in site.data.colors.grayscale %}
+.{{ color.name }} { color: var(--{{ color.name }})};{% endfor %}
 
-.black-90 { color: var(--black-90); }
-.black-80 { color: var(--black-80); }
-.black-70 { color: var(--black-70); }
-.black-60 { color: var(--black-60); }
-.black-50 { color: var(--black-50); }
-.black-40 { color: var(--black-40); }
-.black-30 { color: var(--black-30); }
-.black-20 { color: var(--black-20); }
-.black-10 { color: var(--black-10); }
-.black-05 { color: var(--black-05); }
+{% for color in site.data.colors.black-opacities %}
+.{{ color.name }} { color: var(--{{ color.name }})};{% endfor %}
 
-.bg-black-90 { background-color: var(--black-90); }
-.bg-black-80 { background-color: var(--black-80); }
-.bg-black-70 { background-color: var(--black-70); }
-.bg-black-60 { background-color: var(--black-60); }
-.bg-black-50 { background-color: var(--black-50); }
-.bg-black-40 { background-color: var(--black-40); }
-.bg-black-30 { background-color: var(--black-30); }
-.bg-black-20 { background-color: var(--black-20); }
-.bg-black-10 { background-color: var(--black-10); }
-.bg-black-05 { background-color: var(--black-05); }
+{% for color in site.data.colors.white-opacities %}
+.{{ color.name }} { color: var(--{{ color.name }})};{% endfor %}
 
+{% for color in site.data.colors.grayscale %}
+.bg-{{ color.name }} { background-color: var(--{{ color.name }})};{% endfor %}
 
-.bg-white-90 {background-color: var(--white-90); }
-.bg-white-80 {background-color: var(--white-80); }
-.bg-white-70 {background-color: var(--white-70); }
-.bg-white-60 {background-color: var(--white-60); }
-.bg-white-50 {background-color: var(--white-50); }
-.bg-white-40 {background-color: var(--white-40); }
-.bg-white-30 {background-color: var(--white-30); }
-.bg-white-20 {background-color: var(--white-20); }
-.bg-white-10 {background-color: var(--white-10); }
+{% for color in site.data.colors.black-opacities %}
+.bg-{{ color.name }} { background-color: var(--{{ color.name }})};{% endfor %}
 
-.white-90 { color: var(--white-90); }
-.white-80 { color: var(--white-80); }
-.white-70 { color: var(--white-70); }
-.white-60 { color: var(--white-60); }
-.white-50 { color: var(--white-50); }
-.white-40 { color: var(--white-40); }
-.white-30 { color: var(--white-30); }
-.white-20 { color: var(--white-20); }
-.white-10 { color: var(--white-10); }
+{% for color in site.data.colors.white-opacities %}
+.bg-{{ color.name }} { background-color: var(--{{ color.name }})};{% endfor %}
+
 {% endhighlight %}
 </article>
