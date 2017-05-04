@@ -13,12 +13,22 @@
 .relative  { position: relative; }
 .absolute  { position: absolute; }
 .fixed  { position: fixed; }
+.absolute-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 @media (--breakpoint-not-small) {
   .static-ns { position: static; }
   .relative-ns  { position: relative; }
   .absolute-ns  { position: absolute; }
   .fixed-ns  { position: fixed; }
+  .absolute-center-ns {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media (--breakpoint-medium) {
@@ -26,6 +36,11 @@
   .relative-m  { position: relative; }
   .absolute-m  { position: absolute; }
   .fixed-m  { position: fixed; }
+  .absolute-center-m {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media (--breakpoint-large) {
@@ -33,4 +48,9 @@
   .relative-l  { position: relative; }
   .absolute-l  { position: absolute; }
   .fixed-l  { position: fixed; }
+  .absolute-center-l {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
