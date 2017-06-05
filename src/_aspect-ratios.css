@@ -37,6 +37,9 @@
 .aspect-ratio--7x5 {  padding-bottom: 71.42%; }
 .aspect-ratio--5x7 {  padding-bottom: 140%; }
 
+.aspect-ratio--2x35 { padding-bottom: 42.55%; }
+.aspect-ratio--45x364 { padding-bottom: 12.36%; }
+
 .aspect-ratio--1x1 {  padding-bottom: 100%; }
 
 .aspect-ratio--object {
@@ -55,6 +58,8 @@
       height: 0;
       position: relative;
     }
+    .aspect-ratio--2x35-ns { padding-bottom: 42.55%; }
+    .aspect-ratio--45x364-ns { padding-bottom: 12.36%; }
     .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
     .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
     .aspect-ratio--4x3-ns {  padding-bottom: 75%; }
@@ -83,6 +88,8 @@
       height: 0;
       position: relative;
     }
+    .aspect-ratio--2x35-m { padding-bottom: 42.55%; }
+    .aspect-ratio--45x364-m { padding-bottom: 12.36%; }
     .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
     .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
     .aspect-ratio--4x3-m {  padding-bottom: 75%; }
@@ -111,6 +118,8 @@
       height: 0;
       position: relative;
     }
+    .aspect-ratio--2x35-l { padding-bottom: 42.55%; }
+    .aspect-ratio--45x364-l { padding-bottom: 12.36%; }
     .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
     .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
     .aspect-ratio--4x3-l {  padding-bottom: 75%; }
