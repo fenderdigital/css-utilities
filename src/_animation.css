@@ -3,14 +3,26 @@
    ANIMATION
 
 */
+.animate-1s {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
 .animate-2s {
   animation-duration: 2s;
   animation-fill-mode: both;
 }
 
+.alternate {
+  animation-direction: alternate;
+}
+
 .infinite {
   animation-iteration-count: infinite;
+}
+
+.ease-in-out {
+  animation-timing-function: ease-in-out;
 }
 
 .linear {
@@ -22,7 +34,16 @@
   transform-origin: 50% 50% 0;
 }
 
+.fade-opacity {
+  animation-name: fade-opacity;
+}
+
 @keyframes spin {
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
+}
+
+@keyframes fade-opacity {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
