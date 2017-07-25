@@ -2001,10 +2001,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
    ANIMATION
 
 */
+.animate-1s { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 .animate-2s { -webkit-animation-duration: 2s; animation-duration: 2s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.alternate { -webkit-animation-direction: alternate; animation-direction: alternate; }
 .infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.ease-in-out { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
 .linear { -webkit-animation-timing-function: linear; animation-timing-function: linear; }
 .spin { -webkit-animation-name: spin; animation-name: spin; -webkit-transform-origin: 50% 50% 0; transform-origin: 50% 50% 0; }
+.fade-opacity { -webkit-animation-name: fade-opacity; animation-name: fade-opacity; }
 @-webkit-keyframes spin {
  from { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
  to { -webkit-transform: rotate( 360deg ); transform: rotate( 360deg ); }
@@ -2012,6 +2016,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 @keyframes spin {
  from { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
  to { -webkit-transform: rotate( 360deg ); transform: rotate( 360deg ); }
+}
+@-webkit-keyframes fade-opacity {
+ from { opacity: 0; }
+ to { opacity: 1; }
+}
+@keyframes fade-opacity {
+ from { opacity: 0; }
+ to { opacity: 1; }
 }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
