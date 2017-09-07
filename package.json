@@ -1,15 +1,28 @@
 {
-  "name": "css-utilities",
-  "version": "1.1.14",
-  "description": "Functional CSS for humans",
   "author": "mrmrs",
-  "style": "dist/utilities.min.css",
-  "main": "dist/utilities.min.css",
+  "contributors": [
+    {
+      "email": "hi@mrmrs.cc",
+      "name": "adam morse"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
+    }
+  ],
+  "description": "Functional CSS for humans",
+  "devDependencies": {
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^4.2.0",
+    "tachyons-cli": "^1.0.11",
+    "tachyons-modules": "^1.1.8",
+    "watch": "^1.0.1"
+  },
   "files": [
     "css",
     "src"
   ],
-  "repository": "fenderdigital/css-utilities",
   "keywords": [
     "css",
     "oocss",
@@ -20,30 +33,17 @@
     "performance"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^4.2.0",
-    "tachyons-modules": "^1.1.8",
-    "tachyons-cli": "^1.0.10",
-    "watch": "^1.0.1"
-  },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
-  ],
+  "main": "dist/utilities.min.css",
+  "name": "css-utilities",
+  "repository": "fenderdigital/css-utilities",
   "scripts": {
-    "start": "npm run build:watch",
-    "mutations": "immutable-css src/utilities.css --strict",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/utilities.css > dist/utilities.css",
     "build:minify": "tachyons src/utilities.css -m > dist/utilities.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
-  }
+    "build:watch": "watch 'npm run build' ./src/",
+    "mutations": "immutable-css src/utilities.css --strict",
+    "start": "npm run build:watch"
+  },
+  "style": "dist/utilities.min.css",
+  "version": "1.1.15"
 }
