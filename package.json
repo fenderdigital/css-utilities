@@ -1,23 +1,24 @@
 {
-  "author": "mrmrs",
-  "contributors": [
-    {
-      "email": "hi@mrmrs.cc",
-      "name": "adam morse"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
+  "browserslist": [
+    "last 2 versions",
+    "not ie 10",
+    "not op_mini all",
+    "not Samsung < 6",
+    "not Baidu < 7",
+    "not and_uc < 12",
+    "not and_qq < 2"
   ],
-  "description": "Functional CSS for humans",
+  "description": "Fender Design System",
   "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^4.2.0",
-    "tachyons-cli": "^1.0.11",
-    "tachyons-modules": "^1.1.8",
-    "watch": "^1.0.1"
+    "css-loader": "^0.28.7",
+    "css-mqpacker": "^6.0.1",
+    "cssnano": "^3.10.0",
+    "perfectionist": "^2.4.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^10.0.0"
   },
   "files": [
     "css",
@@ -37,12 +38,10 @@
   "name": "css-utilities",
   "repository": "fenderdigital/css-utilities",
   "scripts": {
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/utilities.css > dist/utilities.css",
-    "build:minify": "tachyons src/utilities.css -m > dist/utilities.min.css",
-    "build:watch": "watch 'npm run build' ./src/",
-    "mutations": "immutable-css src/utilities.css --strict",
-    "start": "npm run build:watch"
+    "build": "yarn run compile:css && yarn run minify:css",
+    "compile:css": "postcss src/utilities.css -o dist/utilities.css -c postcss.config.js",
+    "minify:css": "postcss dist/utilities.css -o dist/utilities.min.css -c postcss.config.js -e production",
+    "start": "postcss src/utilities.css -o dist/utilities.css -c postcss.config.js -w"
   },
   "style": "dist/utilities.min.css",
   "version": "1.1.15"

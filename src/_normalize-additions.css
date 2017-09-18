@@ -16,3 +16,7 @@ p {
 sup {
   top: 0;
 }
+
+body {
+  font-family: system-ui;
+}
