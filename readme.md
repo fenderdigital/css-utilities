@@ -24,13 +24,19 @@ The SRC folder is broken up into contextual modules, add CSS to the relevant mod
 
 Clone this repo from github, cd into the directory and run:
 
-`npm install`
+`yarn install`
 
 Then
 
-```npm start```
+```yarn start```
 
-This will output both minified and unminified versions of the css to the css directory and watch the src directory for changes.
+This will output unminified versions of the css to the css directory and watch the src directory for changes.
+
+run
+
+```yarn run build```
+
+To build a minified production version with sourcemap.
 
 Open the 'index.html` file in the root like you did in the "Try it out Section", and test your new class out in there. If it looks good, do a PR to this repo
 

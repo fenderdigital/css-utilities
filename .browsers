@@ -1,0 +1,7 @@
+last 2 versions
+not ie 10
+not OperaMini all
+not Samsung < 6
+not Baidu < 7
+not UCAndroid < 12
+not QQAndroid < 2
