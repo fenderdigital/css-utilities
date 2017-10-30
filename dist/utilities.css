@@ -2424,6 +2424,12 @@ img {
   background: linear-gradient(to bottom, #fff, #e0e0e0);
 }
 
+.bg-gradient-blue-to-dark-blue {
+  background: #038cca;
+  background: -webkit-gradient(linear, left top, left bottom, from(#038cca), to(#185b9d));
+  background: linear-gradient(to bottom, #038cca, #185b9d);
+}
+
 /*
 
     OPACITY
