@@ -28,3 +28,8 @@
   background:  var(--white);
   background: linear-gradient(to bottom, var(--white), var(--light-gray));
 }
+
+.bg-gradient-blue-to-dark-blue {
+  background: var(--blue);
+  background: linear-gradient(to bottom, var(--blue), var(--dark-blue));
+}
