@@ -4440,6 +4440,13 @@ img {
   text-overflow: ellipsis;
 }
 
+.ligatures-none {
+  -webkit-font-feature-settings: none;
+          font-feature-settings: none;
+  -webkit-font-variant-ligatures: none;
+          font-variant-ligatures: none;
+}
+
 /*
 
    UTILITIES
@@ -6795,6 +6802,13 @@ img {
     text-overflow: ellipsis;
   }
 
+  .ligatures-none-ns {
+    -webkit-font-feature-settings: none;
+            font-feature-settings: none;
+    -webkit-font-variant-ligatures: none;
+            font-variant-ligatures: none;
+  }
+
   .clip-ns {
     position: fixed !important;
     _position: absolute !important;
@@ -8627,6 +8641,13 @@ img {
     text-overflow: ellipsis;
   }
 
+  .ligatures-none-m {
+    -webkit-font-feature-settings: none;
+            font-feature-settings: none;
+    -webkit-font-variant-ligatures: none;
+            font-variant-ligatures: none;
+  }
+
   .clip-m {
     position: fixed !important;
     _position: absolute !important;
@@ -10433,6 +10454,13 @@ img {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .ligatures-none-l {
+    -webkit-font-feature-settings: none;
+            font-feature-settings: none;
+    -webkit-font-variant-ligatures: none;
+            font-variant-ligatures: none;
   }
 
   .clip-l {

@@ -45,6 +45,10 @@
   text-overflow: ellipsis;
 }
 
+.ligatures-none {
+  font-variant-ligatures: none;
+}
+
 @media (--breakpoint-not-small) {
   .measure-ns  {
     max-width: 30em;
@@ -67,6 +71,9 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .ligatures-none-ns {
+    font-variant-ligatures: none;
   }
 }
 
@@ -93,6 +100,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .ligatures-none-m {
+    font-variant-ligatures: none;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -117,5 +127,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .ligatures-none-l {
+    font-variant-ligatures: none;
   }
 }
