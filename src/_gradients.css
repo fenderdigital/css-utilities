@@ -4,6 +4,10 @@
 
  */
 
+.bg-gradient-none {
+  background: none;
+}
+
 .bg-gradient-near-white-to-white {
   background: var(--near-white);
   background: linear-gradient(to bottom, var(--near-white), var(--white));
@@ -35,6 +39,10 @@
 }
 
 @media (--breakpoint-not-small) {
+  .bg-gradient-none-ns {
+    background: none;
+  }
+
   .bg-gradient-near-white-to-white-ns {
     background: var(--near-white);
     background: linear-gradient(to bottom, var(--near-white), var(--white));
@@ -67,6 +75,10 @@
 }
 
 @media (--breakpoint-medium) {
+  .bg-gradient-none-m {
+    background: none;
+  }
+
   .bg-gradient-near-white-to-white-m {
     background: var(--near-white);
     background: linear-gradient(to bottom, var(--near-white), var(--white));
@@ -99,6 +111,10 @@
 }
 
 @media (--breakpoint-large) {
+  .bg-gradient-none-l {
+    background: none;
+  }
+
   .bg-gradient-near-white-to-white-l {
     background: var(--near-white);
     background: linear-gradient(to bottom, var(--near-white), var(--white));
