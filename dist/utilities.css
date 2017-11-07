@@ -6037,6 +6037,41 @@ img {
             transform: translate(-50%, -50%);
   }
 
+  .bg-gradient-near-white-to-white-ns {
+    background: #f9f9f9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+    background: linear-gradient(to bottom, #f9f9f9, #fff);
+  }
+
+  .bg-gradient-light-gray-to-moon-gray-ns {
+    background: #e0e0e0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#ccc));
+    background: linear-gradient(to bottom, #e0e0e0, #ccc);
+  }
+
+  .bg-gradient-near-black-to-dark-gray-ns {
+    background: #222;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #222), to(#4a4a4a));
+    background: linear-gradient(to bottom, #222 50%, #4a4a4a 100%);
+  }
+
+  .bg-gradient-light-gray-to-white-ns {
+    background: #fff;
+    background: linear-gradient(1deg, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-white-to-light-gray-ns {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background: linear-gradient(to bottom, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-blue-to-dark-blue-ns {
+    background: #038cca;
+    background: -webkit-gradient(linear, left top, left bottom, from(#038cca), to(#185b9d));
+    background: linear-gradient(to bottom, #038cca, #185b9d);
+  }
+
   .rotate-45-ns {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -7876,6 +7911,41 @@ img {
             transform: translate(-50%, -50%);
   }
 
+  .bg-gradient-near-white-to-white-m {
+    background: #f9f9f9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+    background: linear-gradient(to bottom, #f9f9f9, #fff);
+  }
+
+  .bg-gradient-light-gray-to-moon-gray-m {
+    background: #e0e0e0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#ccc));
+    background: linear-gradient(to bottom, #e0e0e0, #ccc);
+  }
+
+  .bg-gradient-near-black-to-dark-gray-m {
+    background: #222;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #222), to(#4a4a4a));
+    background: linear-gradient(to bottom, #222 50%, #4a4a4a 100%);
+  }
+
+  .bg-gradient-light-gray-to-white-m {
+    background: #fff;
+    background: linear-gradient(1deg, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-white-to-light-gray-m {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background: linear-gradient(to bottom, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-blue-to-dark-blue-m {
+    background: #038cca;
+    background: -webkit-gradient(linear, left top, left bottom, from(#038cca), to(#185b9d));
+    background: linear-gradient(to bottom, #038cca, #185b9d);
+  }
+
   .rotate-45-m {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -9689,6 +9759,41 @@ img {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+
+  .bg-gradient-near-white-to-white-l {
+    background: #f9f9f9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+    background: linear-gradient(to bottom, #f9f9f9, #fff);
+  }
+
+  .bg-gradient-light-gray-to-moon-gray-l {
+    background: #e0e0e0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#ccc));
+    background: linear-gradient(to bottom, #e0e0e0, #ccc);
+  }
+
+  .bg-gradient-near-black-to-dark-gray-l {
+    background: #222;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #222), to(#4a4a4a));
+    background: linear-gradient(to bottom, #222 50%, #4a4a4a 100%);
+  }
+
+  .bg-gradient-light-gray-to-white-l {
+    background: #fff;
+    background: linear-gradient(1deg, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-white-to-light-gray-l {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background: linear-gradient(to bottom, #fff, #e0e0e0);
+  }
+
+  .bg-gradient-blue-to-dark-blue-l {
+    background: #038cca;
+    background: -webkit-gradient(linear, left top, left bottom, from(#038cca), to(#185b9d));
+    background: linear-gradient(to bottom, #038cca, #185b9d);
   }
 
   .rotate-45-l {
