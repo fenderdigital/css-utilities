@@ -44,5 +44,5 @@
     "start": "postcss src/utilities.css -o dist/utilities.css -c postcss.config.js -w"
   },
   "style": "dist/utilities.min.css",
-  "version": "1.1.20"
+  "version": "1.1.21"
 }
