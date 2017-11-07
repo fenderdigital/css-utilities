@@ -2395,6 +2395,10 @@ img {
 
  */
 
+.bg-gradient-none {
+  background: none;
+}
+
 .bg-gradient-near-white-to-white {
   background: #f9f9f9;
   background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
@@ -6037,6 +6041,10 @@ img {
             transform: translate(-50%, -50%);
   }
 
+  .bg-gradient-none-ns {
+    background: none;
+  }
+
   .bg-gradient-near-white-to-white-ns {
     background: #f9f9f9;
     background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
@@ -7911,6 +7919,10 @@ img {
             transform: translate(-50%, -50%);
   }
 
+  .bg-gradient-none-m {
+    background: none;
+  }
+
   .bg-gradient-near-white-to-white-m {
     background: #f9f9f9;
     background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
@@ -9759,6 +9771,10 @@ img {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+
+  .bg-gradient-none-l {
+    background: none;
   }
 
   .bg-gradient-near-white-to-white-l {
