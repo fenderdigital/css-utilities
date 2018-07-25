@@ -63,6 +63,7 @@
 .olive-green { color: var(--olive-green); }
 .teal { color: var(--teal); }
 .dark-teal { color: var(--dark-teal); }
+.light-teal { color: var(--light-teal); }
 .navy { color: var(--navy); }
 .dark-blue { color: var(--dark-blue); }
 .blue { color: var(--blue); }
@@ -131,6 +132,7 @@
 .bg-olive-green { background-color: var(--olive-green); }
 .bg-teal { background-color: var(--teal); }
 .bg-dark-teal { background-color: var(--dark-teal); }
+.bg-light-teal { background-color: var(--light-teal); }
 .bg-navy { background-color: var(--navy); }
 .bg-dark-blue { background-color: var(--dark-blue); }
 .bg-blue { background-color: var(--blue); }
