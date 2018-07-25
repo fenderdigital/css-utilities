@@ -75,6 +75,7 @@
 .b--olive-green { border-color: var(--olive-green); }
 .b--teal { border-color: var(--teal); }
 .b--dark-teal { border-color: var(--dark-teal); }
+.b--light-teal { border-color: var(--light-teal); }
 .b--navy { border-color: var(--navy); }
 .b--dark-blue { border-color: var(--dark-blue); }
 .b--blue { border-color: var(--blue); }

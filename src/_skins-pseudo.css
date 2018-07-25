@@ -169,6 +169,8 @@
 .hover-teal:focus { color: var(--teal); }
 .hover-dark-teal:hover,
 .hover-dark-teal:focus { color: var(--dark-teal); }
+.hover-light-teal:hover,
+.hover-light-teal:focus { color: var(--light-teal); }
 .hover-navy:hover,
 .hover-navy:focus { color: var(--navy); }
 .hover-dark-blue:hover,
@@ -228,6 +230,8 @@
 .hover-bg-teal:focus { background-color: var(--teal); }
 .hover-bg-dark-teal:hover,
 .hover-bg-dark-teal:focus { background-color: var(--dark-teal); }
+.hover-bg-light-teal:hover,
+.hover-bg-light-teal:focus { background-color: var(--light-teal); }
 .hover-bg-navy:hover,
 .hover-bg-navy:focus { background-color: var(--navy); }
 .hover-bg-dark-blue:hover,
