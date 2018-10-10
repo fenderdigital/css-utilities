@@ -1556,9 +1556,28 @@ img {
       flex-wrap: wrap;
 }
 
-.no-wrap {
+.flex-nowrap {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.flex-column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+}
+
+.flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
 }
 
 .items-start {
@@ -1733,6 +1752,28 @@ img {
   -webkit-box-ordinal-group: 100000;
   -ms-flex-order: 99999;
   order: 99999;
+}
+
+.flex-grow-0 {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.flex-shrink-0 {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
 }
 
 /*
@@ -5521,9 +5562,28 @@ img {
         flex-wrap: wrap;
   }
 
-  .no-wrap-ns {
+  .flex-nowrap-ns {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+
+  .flex-wrap-reverse-ns {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  .flex-column-reverse-ns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+
+  .flex-row-reverse-ns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
   }
 
   .items-start-ns {
@@ -5698,6 +5758,28 @@ img {
     -webkit-box-ordinal-group: 100000;
     -ms-flex-order: 99999;
     order: 99999;
+  }
+
+  .flex-grow-0-ns {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+
+  .flex-grow-1-ns {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .flex-shrink-0-ns {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .flex-shrink-1-ns {
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
   }
 
   .fl-ns {
@@ -7399,9 +7481,28 @@ img {
         flex-wrap: wrap;
   }
 
-  .no-wrap-m {
+  .flex-nowrap-m {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+
+  .flex-wrap-reverse-m {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  .flex-column-reverse-m {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+
+  .flex-row-reverse-m {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
   }
 
   .items-start-m {
@@ -7576,6 +7677,28 @@ img {
     -webkit-box-ordinal-group: 100000;
     -ms-flex-order: 99999;
     order: 99999;
+  }
+
+  .flex-grow-0-m {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+
+  .flex-grow-1-m {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .flex-shrink-0-m {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .flex-shrink-1-m {
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
   }
 
   .fl-m {
@@ -9253,9 +9376,28 @@ img {
         flex-wrap: wrap;
   }
 
-  .no-wrap-l {
+  .flex-nowrap-l {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+
+  .flex-wrap-reverse-l {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  .flex-column-reverse-l {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+
+  .flex-row-reverse-l {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
   }
 
   .items-start-l {
@@ -9430,6 +9572,28 @@ img {
     -webkit-box-ordinal-group: 100000;
     -ms-flex-order: 99999;
     order: 99999;
+  }
+
+  .flex-grow-0-l {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+
+  .flex-grow-1-l {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .flex-shrink-0-l {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .flex-shrink-1-l {
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
   }
 
   .fl-l {
