@@ -1,3 +1,4 @@
+- name: alarm
 - name: alert
 - name: amp
 - name: arrow-down
@@ -38,6 +39,7 @@
 - name: instagram
 - name: life-preserver
 - name: lightning-bolt
+- name: lock
 - name: logo
 - name: logo-riffstation-horizontal
 - name: logo-tone-horizontal
@@ -64,6 +66,7 @@
 - name: play
 - name: play-circle
 - name: plus-circle
+- name: play-pick
 - name: plus-light
 - name: pointer-down
 - name: pointer-down-light
