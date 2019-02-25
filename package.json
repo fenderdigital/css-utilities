@@ -20,19 +20,8 @@
     "postcss-discard-comments": "^2.0.4",
     "postcss-import": "^10.0.0"
   },
-  "files": [
-    "css",
-    "src"
-  ],
-  "keywords": [
-    "css",
-    "oocss",
-    "postcss",
-    "functional css",
-    "design",
-    "responsive",
-    "performance"
-  ],
+  "files": ["css", "src"],
+  "keywords": ["css", "oocss", "postcss", "functional css", "design", "responsive", "performance"],
   "license": "MIT",
   "main": "dist/utilities.min.css",
   "name": "css-utilities",
@@ -44,5 +33,5 @@
     "start": "postcss src/utilities.css -o dist/utilities.css -c postcss.config.js -w"
   },
   "style": "dist/utilities.min.css",
-  "version": "1.2.0"
+  "version": "1.3.0"
 }
