@@ -145,3 +145,150 @@
 .bg-washed-yellow { background-color: var(--washed-yellow); }
 .bg-washed-red { background-color: var(--washed-red); }
 .bg-inherit { background-color: inherit; }
+
+
+@media (--breakpoint-not-small) {
+  .bg-black-ns {         background-color: var(--black); }
+  .bg-near-black-ns {    background-color: var(--near-black); }
+  .bg-dark-gray-ns {     background-color: var(--dark-gray); }
+  .bg-mid-gray-ns {      background-color: var(--mid-gray); }
+  .bg-gray-ns {          background-color: var(--gray); }
+  .bg-silver-ns {       background-color: var(--silver); }
+  .bg-light-silver-ns {  background-color: var(--light-silver); }
+  .bg-moon-gray-ns {     background-color: var(--moon-gray); }
+  .bg-light-gray-ns {    background-color: var(--light-gray); }
+  .bg-near-white-ns {    background-color: var(--near-white); }
+  .bg-white-ns {         background-color: var(--white); }
+  .bg-transparent-ns {   background-color: var(--transparent); }
+
+  .bg-dark-red-ns { background-color: var(--dark-red); }
+  .bg-red-ns { background-color: var(--red); }
+  .bg-light-red-ns { background-color: var(--light-red); }
+  .bg-orange-ns { background-color: var(--orange); }
+  .bg-brown-ns { background-color: var(--brown); }
+  .bg-gold-ns { background-color: var(--gold); }
+  .bg-yellow-ns { background-color: var(--yellow); }
+  .bg-dark-yellow-ns { background-color: var(--dark-yellow); }
+  .bg-light-yellow-ns { background-color: var(--light-yellow); }
+  .bg-purple-ns { background-color: var(--purple); }
+  .bg-dark-purple-ns { background-color: var(--dark-purple); }
+  .bg-dark-pink-ns { background-color: var(--dark-pink); }
+  .bg-hot-pink-ns { background-color: var(--hot-pink); }
+  .bg-pink-ns { background-color: var(--pink); }
+  .bg-light-pink-ns { background-color: var(--light-pink); }
+  .bg-dark-green-ns { background-color: var(--dark-green); }
+  .bg-green-ns { background-color: var(--green); }
+  .bg-olive-green-ns { background-color: var(--olive-green); }
+  .bg-teal-ns { background-color: var(--teal); }
+  .bg-dark-teal-ns { background-color: var(--dark-teal); }
+  .bg-light-teal-ns { background-color: var(--light-teal); }
+  .bg-navy-ns { background-color: var(--navy); }
+  .bg-dark-blue-ns { background-color: var(--dark-blue); }
+  .bg-blue-ns { background-color: var(--blue); }
+  .bg-blue-gray-ns { background-color: var(--blue-gray); }
+  .bg-light-blue-ns { background-color: var(--light-blue); }
+  .bg-lightest-blue-ns { background-color: var(--lightest-blue); }
+  .bg-washed-blue-ns { background-color: var(--washed-blue); }
+  .bg-washed-green-ns { background-color: var(--washed-green); }
+  .bg-washed-yellow-ns { background-color: var(--washed-yellow); }
+  .bg-washed-red-ns { background-color: var(--washed-red); }
+  .bg-inherit-ns { background-color: inherit; }
+}
+
+
+@media (--breakpoint-medium) {
+  .bg-black-m {         background-color: var(--black); }
+  .bg-near-black-m {    background-color: var(--near-black); }
+  .bg-dark-gray-m {     background-color: var(--dark-gray); }
+  .bg-mid-gray-m {      background-color: var(--mid-gray); }
+  .bg-gray-m {          background-color: var(--gray); }
+  .bg-silver-m {       background-color: var(--silver); }
+  .bg-light-silver-m {  background-color: var(--light-silver); }
+  .bg-moon-gray-m {     background-color: var(--moon-gray); }
+  .bg-light-gray-m {    background-color: var(--light-gray); }
+  .bg-near-white-m {    background-color: var(--near-white); }
+  .bg-white-m {         background-color: var(--white); }
+  .bg-transparent-m {   background-color: var(--transparent); }
+
+  .bg-dark-red-m { background-color: var(--dark-red); }
+  .bg-red-m { background-color: var(--red); }
+  .bg-light-red-m { background-color: var(--light-red); }
+  .bg-orange-m { background-color: var(--orange); }
+  .bg-brown-m { background-color: var(--brown); }
+  .bg-gold-m { background-color: var(--gold); }
+  .bg-yellow-m { background-color: var(--yellow); }
+  .bg-dark-yellow-m { background-color: var(--dark-yellow); }
+  .bg-light-yellow-m { background-color: var(--light-yellow); }
+  .bg-purple-m { background-color: var(--purple); }
+  .bg-dark-purple-m { background-color: var(--dark-purple); }
+  .bg-dark-pink-m { background-color: var(--dark-pink); }
+  .bg-hot-pink-m { background-color: var(--hot-pink); }
+  .bg-pink-m { background-color: var(--pink); }
+  .bg-light-pink-m { background-color: var(--light-pink); }
+  .bg-dark-green-m { background-color: var(--dark-green); }
+  .bg-green-m { background-color: var(--green); }
+  .bg-olive-green-m { background-color: var(--olive-green); }
+  .bg-teal-m { background-color: var(--teal); }
+  .bg-dark-teal-m { background-color: var(--dark-teal); }
+  .bg-light-teal-m { background-color: var(--light-teal); }
+  .bg-navy-m { background-color: var(--navy); }
+  .bg-dark-blue-m { background-color: var(--dark-blue); }
+  .bg-blue-m { background-color: var(--blue); }
+  .bg-blue-gray-m { background-color: var(--blue-gray); }
+  .bg-light-blue-m { background-color: var(--light-blue); }
+  .bg-lightest-blue-m { background-color: var(--lightest-blue); }
+  .bg-washed-blue-m { background-color: var(--washed-blue); }
+  .bg-washed-green-m { background-color: var(--washed-green); }
+  .bg-washed-yellow-m { background-color: var(--washed-yellow); }
+  .bg-washed-red-m { background-color: var(--washed-red); }
+  .bg-inherit-m { background-color: inherit; }
+}
+
+
+@media (--breakpoint-large) {
+  .bg-black-l {         background-color: var(--black); }
+  .bg-near-black-l {    background-color: var(--near-black); }
+  .bg-dark-gray-l {     background-color: var(--dark-gray); }
+  .bg-mid-gray-l {      background-color: var(--mid-gray); }
+  .bg-gray-l {          background-color: var(--gray); }
+  .bg-silver-l {       background-color: var(--silver); }
+  .bg-light-silver-l {  background-color: var(--light-silver); }
+  .bg-moon-gray-l {     background-color: var(--moon-gray); }
+  .bg-light-gray-l {    background-color: var(--light-gray); }
+  .bg-near-white-l {    background-color: var(--near-white); }
+  .bg-white-l {         background-color: var(--white); }
+  .bg-transparent-l {   background-color: var(--transparent); }
+
+  .bg-dark-red-l { background-color: var(--dark-red); }
+  .bg-red-l { background-color: var(--red); }
+  .bg-light-red-l { background-color: var(--light-red); }
+  .bg-orange-l { background-color: var(--orange); }
+  .bg-brown-l { background-color: var(--brown); }
+  .bg-gold-l { background-color: var(--gold); }
+  .bg-yellow-l { background-color: var(--yellow); }
+  .bg-dark-yellow-l { background-color: var(--dark-yellow); }
+  .bg-light-yellow-l { background-color: var(--light-yellow); }
+  .bg-purple-l { background-color: var(--purple); }
+  .bg-dark-purple-l { background-color: var(--dark-purple); }
+  .bg-dark-pink-l { background-color: var(--dark-pink); }
+  .bg-hot-pink-l { background-color: var(--hot-pink); }
+  .bg-pink-l { background-color: var(--pink); }
+  .bg-light-pink-l { background-color: var(--light-pink); }
+  .bg-dark-green-l { background-color: var(--dark-green); }
+  .bg-green-l { background-color: var(--green); }
+  .bg-olive-green-l { background-color: var(--olive-green); }
+  .bg-teal-l { background-color: var(--teal); }
+  .bg-dark-teal-l { background-color: var(--dark-teal); }
+  .bg-light-teal-l { background-color: var(--light-teal); }
+  .bg-navy-l { background-color: var(--navy); }
+  .bg-dark-blue-l { background-color: var(--dark-blue); }
+  .bg-blue-l { background-color: var(--blue); }
+  .bg-blue-gray-l { background-color: var(--blue-gray); }
+  .bg-light-blue-l { background-color: var(--light-blue); }
+  .bg-lightest-blue-l { background-color: var(--lightest-blue); }
+  .bg-washed-blue-l { background-color: var(--washed-blue); }
+  .bg-washed-green-l { background-color: var(--washed-green); }
+  .bg-washed-yellow-l { background-color: var(--washed-yellow); }
+  .bg-washed-red-l { background-color: var(--washed-red); }
+  .bg-inherit-l { background-color: inherit; }
+}
