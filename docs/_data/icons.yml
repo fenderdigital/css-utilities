@@ -41,6 +41,7 @@
 - name: headstock-fill
 - name: headstock-fill-45c
 - name: home
+- name: home-filled
 - name: info-circle-fill
 - name: instagram
 - name: life-preserver
@@ -56,6 +57,7 @@
 - name: minus-light
 - name: my-favorites
 - name: my-progress
+- name: my-progress-filled
 - name: neck
 - name: neck-45c
 - name: neck-circle-45c
@@ -96,10 +98,13 @@
 - name: share
 - name: sharp
 - name: sharp-bold
+- name: sign-out
 - name: skills
+- name: skills-filled
 - name: sliders
 - name: snapchat
 - name: songs
+- name: songs-filled
 - name: speaker
 - name: star
 - name: star-fill
@@ -108,6 +113,7 @@
 - name: tablature
 - name: thumbs-up
 - name: toolkit
+- name: toolkit-filled
 - name: triangle-down
 - name: triangle-left
 - name: triangle-right
