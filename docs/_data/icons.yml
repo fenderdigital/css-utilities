@@ -29,6 +29,8 @@
 - name: download
 - name: download-2
 - name: elipsis
+- name: elipsis-alt
+- name: elipsis-more
 - name: envelope
 - name: eye
 - name: facebook
@@ -94,6 +96,7 @@
 - name: ruler
 - name: ruler-45c
 - name: search
+- name: search-thin
 - name: settings
 - name: share
 - name: sharp
