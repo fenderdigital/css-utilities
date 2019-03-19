@@ -3,6 +3,7 @@
 - name: amp
 - name: app-switcher
 - name: arrow-down
+- name: arrow-indicator
 - name: arrow-left
 - name: arrow-right
 - name: arrow-right-circle
