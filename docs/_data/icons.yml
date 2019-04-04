@@ -33,6 +33,7 @@
 - name: elipsis-alt
 - name: elipsis-more
 - name: envelope
+- name: expand
 - name: eye
 - name: facebook
 - name: flat
@@ -131,4 +132,5 @@
 - name: wifi
 - name: wood-grain-circle
 - name: x
+- name: x-thin
 - name: youtube
