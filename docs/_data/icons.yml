@@ -16,6 +16,7 @@
 - name: box
 - name: browse
 - name: cable
+- name: calendar
 - name: cart
 - name: check
 - name: check-circle
@@ -32,10 +33,12 @@
 - name: elipsis
 - name: elipsis-alt
 - name: elipsis-more
+- name: elipsis-vertical
 - name: envelope
 - name: expand
 - name: eye
 - name: facebook
+- name: flame
 - name: flat
 - name: flat-bold
 - name: google-plus
@@ -48,8 +51,10 @@
 - name: home-filled
 - name: info-circle-fill
 - name: instagram
+- name: layout
 - name: life-preserver
 - name: lightning-bolt
+- name: list
 - name: lock
 - name: logo
 - name: logo-riffstation-horizontal
@@ -132,5 +137,6 @@
 - name: wifi
 - name: wood-grain-circle
 - name: x
+- name: x-circle
 - name: x-thin
 - name: youtube
