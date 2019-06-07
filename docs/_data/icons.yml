@@ -62,6 +62,7 @@
 - name: logo-play-horizontal
 - name: menu
 - name: mesh-circle
+- name: metronome
 - name: minus-circle
 - name: minus-light
 - name: my-favorites
@@ -73,6 +74,7 @@
 - name: note-double-eighth
 - name: note-flat
 - name: note-sharp
+- name: pause
 - name: pencil
 - name: phone
 - name: pick
