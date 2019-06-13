@@ -18,6 +18,7 @@
 - name: cable
 - name: calendar
 - name: cart
+- name: chat
 - name: check
 - name: check-circle
 - name: check-circle-fill
