@@ -2,6 +2,7 @@
 - name: alert
 - name: amp
 - name: app-switcher
+- name: arrow-active-lesson
 - name: arrow-down
 - name: arrow-indicator
 - name: arrow-left
