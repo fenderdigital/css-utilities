@@ -138,6 +138,8 @@
 - name: twitter
 - name: user
 - name: user-circle
+- name: video-detached
+- name: video-splitscreen
 - name: wifi
 - name: wood-grain-circle
 - name: x
