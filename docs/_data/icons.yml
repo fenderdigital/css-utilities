@@ -62,6 +62,8 @@
 - name: logo-riffstation-horizontal
 - name: logo-tone-horizontal
 - name: logo-play-horizontal
+- name: megaphone
+- name: megaphone-fill
 - name: menu
 - name: mesh-circle
 - name: metronome
