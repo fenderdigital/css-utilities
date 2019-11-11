@@ -49,6 +49,8 @@
 - name: headstock-45c
 - name: headstock-fill
 - name: headstock-fill-45c
+- name: heart
+- name: heart-fill
 - name: home
 - name: home-filled
 - name: info-circle-fill
