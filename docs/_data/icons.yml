@@ -23,11 +23,13 @@
 - name: check
 - name: check-circle
 - name: check-circle-fill
+- name: check-mark-complete
 - name: chord-diagram
 - name: circle
 - name: circle-fill
 - name: document-badge
 - name: document-bullets
+- name: document-course-detail
 - name: document-pages
 - name: door-exit
 - name: download
