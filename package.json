@@ -10,7 +10,7 @@
   ],
   "description": "Fender Design System",
   "devDependencies": {
-    "css-loader": "^0.28.7",
+    "css-loader": "^3.4.2",
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
     "perfectionist": "^2.4.0",
@@ -21,8 +21,19 @@
     "postcss-import": "^10.0.0",
     "prettier": "^1.16.4"
   },
-  "files": ["css", "src"],
-  "keywords": ["css", "oocss", "postcss", "functional css", "design", "responsive", "performance"],
+  "files": [
+    "css",
+    "src"
+  ],
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
   "license": "MIT",
   "main": "dist/utilities.min.css",
   "name": "css-utilities",
