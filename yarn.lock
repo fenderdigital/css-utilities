@@ -1921,6 +1921,7 @@ path-type@^2.0.0:
 perfectionist@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/perfectionist/-/perfectionist-2.4.0.tgz#c147ad3714e126467f1764129ee72df861d47ea0"
+  integrity sha1-wUetNxThJkZ/F2QSnuct+GHUfqA=
   dependencies:
     comment-regex "^1.0.0"
     defined "^1.0.0"
