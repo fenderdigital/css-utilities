@@ -11,7 +11,7 @@
   "description": "Fender Design System",
   "devDependencies": {
     "css-loader": "^3.4.2",
-    "css-mqpacker": "^6.0.1",
+    "css-mqpacker": "^7.0.0",
     "cssnano": "^3.10.0",
     "perfectionist": "^2.4.0",
     "postcss-cli": "^4.1.1",
