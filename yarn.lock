@@ -1544,6 +1544,7 @@ postcss-colormin@^4.0.3:
 postcss-conditionals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/postcss-conditionals/-/postcss-conditionals-2.1.0.tgz#4d1f62aa540458ce7ab779f71656901c8f8e929a"
+  integrity sha1-TR9iqlQEWM56t3n3FlaQHI+Okpo=
   dependencies:
     css-color-converter "^1.0.2"
     css-unit-converter "^1.0.0"
