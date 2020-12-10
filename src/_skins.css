@@ -124,6 +124,7 @@
 .bg-light-yellow { background-color: var(--light-yellow); }
 .bg-purple { background-color: var(--purple); }
 .bg-dark-purple { background-color: var(--dark-purple); }
+.bg-free-purple { background-color: var(--free-purple); }
 .bg-dark-pink { background-color: var(--dark-pink); }
 .bg-hot-pink { background-color: var(--hot-pink); }
 .bg-pink { background-color: var(--pink); }

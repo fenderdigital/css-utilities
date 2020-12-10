@@ -370,7 +370,6 @@ body {
                  Oxygen,
                  Ubuntu,
                  Cantarell,
-                 Fira Sans,
                  Droid Sans,
                  Helvetica Neue;
 }
@@ -2906,6 +2905,10 @@ img {
 
 .bg-dark-purple {
   background-color: #2f1944;
+}
+
+.bg-free-purple {
+  background-color: #262e8d;
 }
 
 .bg-dark-pink {
