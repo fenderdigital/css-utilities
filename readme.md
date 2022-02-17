@@ -1,4 +1,6 @@
-# Fender CSS Utilities
+# DEPRECATED
+
+Use: https://github.com/fenderdigital/fender-clients/tree/main/packages/ui
 
 Functional CSS for humans.
 
