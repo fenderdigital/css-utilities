@@ -97,6 +97,8 @@
 - name: plus-circle
 - name: play-pick
 - name: play-lists
+- name: playlists
+- name: playlists-filled
 - name: plus-light
 - name: pointer-down
 - name: pointer-down-light
