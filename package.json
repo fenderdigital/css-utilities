@@ -10,16 +10,16 @@
   ],
   "description": "Fender Design System",
   "devDependencies": {
-    "css-loader": "^3.4.2",
-    "css-mqpacker": "^7.0.0",
-    "cssnano": "^4.1.10",
-    "perfectionist": "^2.4.0",
-    "postcss-cli": "^7.1.0",
-    "postcss-conditionals": "^2.1.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-discard-comments": "^4.0.2",
-    "postcss-import": "^12.0.1",
-    "prettier": "^2.0.2"
+    "css-loader": "3.4.2",
+    "css-mqpacker": "7.0.0",
+    "cssnano": "4.1.10",
+    "perfectionist": "2.4.0",
+    "postcss-cli": "7.1.0",
+    "postcss-conditionals": "2.1.0",
+    "postcss-cssnext": "3.1.0",
+    "postcss-discard-comments": "4.0.2",
+    "postcss-import": "12.0.1",
+    "prettier": "2.0.2"
   },
   "files": [
     "css",
